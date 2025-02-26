@@ -260,9 +260,6 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\spl
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\mauisplash.stamp
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -306,3 +303,9 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\refint\Bubble.dll
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.pdb
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.genruntimeconfig.cache
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\ref\Bubble.dll
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\MaterialIcons-Regular.ttf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Black.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Light.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Medium.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Regular.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.sourcelink.json

@@ -250,9 +250,6 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.i
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -295,3 +292,9 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\refint\Bubb
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Bubble.pdb
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Bubble.genruntimeconfig.cache
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\Bubble.dll
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\f\MaterialIcons-Regular.ttf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\f\Metropolis-Black.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\f\Metropolis-Light.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\f\Metropolis-Medium.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\f\Metropolis-Regular.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Bubble.sourcelink.json

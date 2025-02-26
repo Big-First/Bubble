@@ -27,11 +27,6 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\mauifont.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\FluentUI.cs
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Regular.ttf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Semibold.ttf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\mipmap-hdpi\appicon.png
@@ -928,3 +923,14 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\stamp\_ConvertResourcesCases.st
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\MaterialIcons-Regular.ttf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Black.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Light.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Medium.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Regular.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.sourcelink.json
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\MaterialIcons-Regular.ttf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Black.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Light.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Medium.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Regular.otf
