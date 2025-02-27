@@ -1,4 +1,7 @@
-﻿namespace Bubble.Services;
+﻿using Bubble.ViewModels;
+using Bubble.Views;
+
+namespace Bubble.Services;
 
 public class NavigationService
     {
