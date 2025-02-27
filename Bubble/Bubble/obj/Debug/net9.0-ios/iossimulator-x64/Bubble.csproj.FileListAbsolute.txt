@@ -277,6 +277,11 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.outputs
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\mauifont.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\FluentUI.cs
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\MaterialIcons-Regular.ttf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Black.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Light.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Medium.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Regular.otf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
@@ -296,6 +301,7 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.GeneratedMS
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.AssemblyInfoInputs.cache
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.AssemblyInfo.cs
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.csproj.CoreCompileInputs.cache
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.sourcelink.json
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\XamlC.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.csproj.Up2Date
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.dll
@@ -303,9 +309,3 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\refint\Bubble.dll
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.pdb
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.genruntimeconfig.cache
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\ref\Bubble.dll
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\MaterialIcons-Regular.ttf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Black.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Light.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Medium.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Metropolis-Regular.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-ios\iossimulator-x64\Bubble.sourcelink.json

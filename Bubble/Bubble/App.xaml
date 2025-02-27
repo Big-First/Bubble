@@ -1,26 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:converters="clr-namespace:Bubble.Converters"
-             x:Class="Bubble.App">
+             xmlns:local="clr-namespace:MauiApplication"
+             x:Class="MauiApplication.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Style x:Key="Headline" TargetType="Label">
-                <Setter Property="FontSize" Value="24" />
-                <Setter Property="FontAttributes" Value="Bold" />
-                <Setter Property="TextColor" Value="Black" />
-            </Style>
-
-            <!-- COLORS -->
-            <Color x:Key="PrimaryColor">#5B61B9</Color>
-            <Color x:Key="SecondaryColor">White</Color>
-            
-            <!-- BRUSHES -->
-            <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}" />
-            <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource SecondaryColor}" />
-            
-            <!-- CONVERTERS -->
-            <converters:ColorToBrushConverter x:Key="ColorToBrushConverter" />
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

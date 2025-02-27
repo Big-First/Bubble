@@ -25,6 +25,11 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\sp\values\maui_colo
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\mauisplash.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\mauifont.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\FluentUI.cs
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\MaterialIcons-Regular.ttf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Black.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Light.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Medium.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Regular.otf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Regular.ttf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\OpenSans-Semibold.ttf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
@@ -119,6 +124,7 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.GeneratedMSBuildEditorCo
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.AssemblyInfoInputs.cache
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.AssemblyInfo.cs
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.csproj.CoreCompileInputs.cache
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.sourcelink.json
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\XamlC.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.dll
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.pdb
@@ -901,6 +907,11 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\android\src\mono\com\google\and
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\android\src\mono\MonoPackageManager_Resources.java
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\AboutAssets.txt
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\FluentUI.cs
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\MaterialIcons-Regular.ttf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Black.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Light.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Medium.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Regular.otf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\OpenSans-Regular.ttf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\OpenSans-Semibold.ttf
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\android\bin\packaged_resources
@@ -923,14 +934,3 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\stamp\_ConvertResourcesCases.st
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\MaterialIcons-Regular.ttf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Black.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Light.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Medium.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\resizetizer\f\Metropolis-Regular.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\Bubble.sourcelink.json
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\MaterialIcons-Regular.ttf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Black.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Light.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Medium.otf
-J:\Bubble\Bubble\Bubble\obj\Debug\net9.0-android\assets\Metropolis-Regular.otf

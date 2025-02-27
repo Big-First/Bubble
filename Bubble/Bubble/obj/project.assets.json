@@ -26402,7 +26402,7 @@
   "packageFolders": {
     "C:\\Users\\MPLopes\\.nuget\\packages\\": {},
     "H:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
@@ -26414,9 +26414,10 @@
       "outputPath": "J:\\Bubble\\Bubble\\Bubble\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "H:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
       ],
       "configFilePaths": [
         "C:\\Users\\MPLopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26432,7 +26433,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -26462,8 +26462,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net9.0-android35.0": {
