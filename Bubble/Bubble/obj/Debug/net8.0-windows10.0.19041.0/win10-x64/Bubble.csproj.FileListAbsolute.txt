@@ -144,11 +144,6 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetiz
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
-J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Bubble.AssemblyInfoInputs.cache
@@ -178,3 +173,8 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifier
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\MaterialIcons-Regular.ttf
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Metropolis-Black.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Metropolis-Light.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Metropolis-Medium.otf
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Metropolis-Regular.otf

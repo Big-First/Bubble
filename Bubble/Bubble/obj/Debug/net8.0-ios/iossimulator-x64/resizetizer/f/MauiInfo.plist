@@ -4,6 +4,12 @@
 <dict>
   <key>UIAppFonts</key>
   <array>
+	<string>MaterialIcons-Regular.ttf</string>
+	<string>MauiInfo.plist</string>
+	<string>Metropolis-Black.otf</string>
+	<string>Metropolis-Light.otf</string>
+	<string>Metropolis-Medium.otf</string>
+	<string>Metropolis-Regular.otf</string>
 	<string>OpenSans-Regular.ttf</string>
 	<string>OpenSans-Semibold.ttf</string>
   </array>
