@@ -63,7 +63,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Views\" />
+      <Folder Include="Views\Templates\" />
     </ItemGroup>
 
 </Project>
