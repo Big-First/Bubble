@@ -1,11 +1,13 @@
-﻿namespace Bubble;
+﻿using Bubble.Views;
 
-public partial class App : Application
+namespace Bubble
 {
-    public App()
+    public partial class App : Application
     {
-        InitializeComponent();
-
-        MainPage = new AppShell();
+        public App()
+        {
+            InitializeComponent();
+            MainPage = new HomeView();
+        }
     }
 }
