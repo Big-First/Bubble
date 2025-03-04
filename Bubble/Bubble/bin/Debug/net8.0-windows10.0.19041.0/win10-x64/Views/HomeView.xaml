@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:Bubble.ViewModels"
+             x:Class="Bubble.Views.HomeView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TitleTextHome" TargetType="Label">
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="WidthRequest" Value="160"/>
+                <Setter Property="Margin" Value="-200,30,0,0"/>
+            </Style>
+            <Style x:Key="SearchIcon" TargetType="Grid">
+                <Setter Property="WidthRequest" Value="52"/>
+                <Setter Property="HeightRequest" Value="52"/>
+                <Setter Property="Margin" Value="5,40,0,0"/>
+            </Style>
+            <Style x:Key="SearchButton" TargetType="Grid">
+                <Setter Property="WidthRequest" Value="52"/>
+                <Setter Property="HeightRequest" Value="52"/>
+                <Setter Property="Margin" Value="0,-10,0,0"/>
+            </Style>
+            <Style x:Key="SearchButtonB" TargetType="Grid">
+                <Setter Property="Margin" Value="-350,100,0,0"/>
+            </Style>
+            <Style x:Key="contactList" TargetType="BoxView">
+                <Setter Property="Color" Value="White" />
+                <Setter Property="HeightRequest" Value="60" />
+                <Setter Property="WidthRequest" Value="350" />
+                <Setter Property="Margin" Value="60,100,0,0" />
+                <Setter Property="CornerRadius" Value="12,12,12,12" />
+            </Style>
+            <Style x:Key="RecentChat" TargetType="BoxView">
+                <Setter Property="Color" Value="White" />
+                <Setter Property="Margin" Value="0,20,0,0" />
+                <Setter Property="CornerRadius" Value="14,14,0,0" />
+            </Style>
+            <Style x:Key="RecentChatAdorned" TargetType="CollectionView">
+                <Setter Property="Margin" Value="12,30,12,0" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <viewModels:HomeViewModel  />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <Grid
+            BackgroundColor="{StaticResource PrimaryColor}"
+              RowDefinitions="Auto, *">
+            
+            <!-- Título -->
+            <Label Text="Chat With your Friends!"
+                   Style="{StaticResource TitleTextHome}"/>
+
+            <!-- Ícone de pesquisa -->
+            <!--
+            <Grid
+                <Grid Style="{StaticResource SearchIcon}">
+                    <Frame WidthRequest="50"
+                           HeightRequest="50"
+                           CornerRadius="25"
+                           BackgroundColor="White">
+                        <Image Source="search.png"
+                               WidthRequest="40"
+                               HeightRequest="40"
+                               Aspect="AspectFit"/>
+                    </Frame>
+                    <ScrollView
+                        Grid.Column="1">
+                        <StackLayout Orientation="Horizontal"
+                                     BindableLayout.ItemsSource="{Binding Users}"
+                                     Padding="5">
+                            
+                            
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+            </Grid>
+            -->
+            <!-- box com lista de contatos -->
+            <!-- SearchButton -->
+            
+            <Grid
+                RowDefinitions="Auto, *">
+                <Grid
+                    Style="{StaticResource SearchButtonB}">
+                    <Frame WidthRequest="50"
+                           HeightRequest="50"
+                           CornerRadius="25"
+                           BackgroundColor="White">
+                        <Image Source="search.png"
+                               WidthRequest="40"
+                               HeightRequest="40"
+                               Aspect="AspectFit"/>
+                    </Frame>
+                
+                </Grid>
+                <BoxView
+                    Style="{StaticResource contactList}"/>
+            </Grid>
+            <!-- box com a lista de conversas -->
+            <Grid
+                Grid.Row="1">
+                <BoxView
+                    Style="{StaticResource RecentChat}"/>
+                <!-- Lista de conversas -->
+                <CollectionView 
+                    ItemsSource="{Binding RecentChat}"
+                    Style="{StaticResource RecentChatAdorned}">
+                    
+                </CollectionView>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
