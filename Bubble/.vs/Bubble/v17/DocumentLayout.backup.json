@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "J:\\Bubble\\Bubble\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\controls\\borderlessentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\controls\\borderlessentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -42,31 +42,30 @@
               "RelativeToolTip": "Bubble\\Models\\User.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAwAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:59:10.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T12:59:10.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Message.cs",
               "DocumentMoniker": "J:\\Bubble\\Bubble\\Bubble\\Models\\Message.cs",
               "RelativeDocumentMoniker": "Bubble\\Models\\Message.cs",
               "ToolTip": "J:\\Bubble\\Bubble\\Bubble\\Models\\Message.cs",
               "RelativeToolTip": "Bubble\\Models\\Message.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T12:57:54.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BorderlessEntry.cs",
               "DocumentMoniker": "J:\\Bubble\\Bubble\\Bubble\\Controls\\BorderlessEntry.cs",
               "RelativeDocumentMoniker": "Bubble\\Controls\\BorderlessEntry.cs",
               "ToolTip": "J:\\Bubble\\Bubble\\Bubble\\Controls\\BorderlessEntry.cs",
               "RelativeToolTip": "Bubble\\Controls\\BorderlessEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T12:57:04.678Z",
               "EditorCaption": ""
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Bubble\\Converters\\ColorToBrushConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:56:02.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T12:56:02.254Z"
             },
             {
               "$type": "Document",
@@ -94,8 +92,7 @@
               "RelativeToolTip": "Bubble\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T12:54:58.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T12:54:58.472Z"
             }
           ]
         }

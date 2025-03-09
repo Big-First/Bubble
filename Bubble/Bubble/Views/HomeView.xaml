@@ -35,6 +35,9 @@
                 <Setter Property="Margin" Value="60,100,0,0" />
                 <Setter Property="CornerRadius" Value="12,12,12,12" />
             </Style>
+            <Style x:Key="ListContacts" TargetType="BoxView">
+                <Setter Property="Margin" Value="60,110,0,0" />
+            </Style>
             <Style x:Key="RecentChat" TargetType="BoxView">
                 <Setter Property="Color" Value="White" />
                 <Setter Property="Margin" Value="0,20,0,0" />
@@ -103,6 +106,13 @@
                 </Grid>
                 <BoxView
                     Style="{StaticResource contactList}"/>
+                <ScrollView>
+                    <StackLayout Orientation="Horizontal"
+                                 Style="{StaticResource ListContacts}"
+                                 BindableLayout.ItemsSource="{Binding Users}"
+                                 Padding="5">
+                    </StackLayout>
+                </ScrollView>
             </Grid>
             <!-- box com a lista de conversas -->
             <Grid
