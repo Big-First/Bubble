@@ -7,8 +7,8 @@ namespace Bubble.ViewModels
 {
     public class HomeViewModel : ViewModelBase
     {
-        ObservableCollection<User> _users;
-        ObservableCollection<Message> _recentChat;
+        ObservableCollection<User> _users { get; set; }
+        ObservableCollection<Message> _recentChat { get; set; }
 
         public HomeViewModel()
         {

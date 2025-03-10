@@ -3,6 +3,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:Bubble.ViewModels"
+             xmlns:templates="clr-namespace:Bubble.Views.Templates"
              x:Class="Bubble.Views.HomeView">
 
     <ContentPage.Resources>
@@ -26,17 +27,17 @@
                 <Setter Property="Margin" Value="0,-10,0,0"/>
             </Style>
             <Style x:Key="SearchButtonB" TargetType="Grid">
-                <Setter Property="Margin" Value="-350,100,0,0"/>
+                <Setter Property="Margin" Value="350,-50,0,0"/>
             </Style>
             <Style x:Key="contactList" TargetType="BoxView">
-                <Setter Property="Color" Value="White" />
+                <Setter Property="Color" Value="CadetBlue" />
                 <Setter Property="HeightRequest" Value="60" />
                 <Setter Property="WidthRequest" Value="350" />
                 <Setter Property="Margin" Value="60,100,0,0" />
                 <Setter Property="CornerRadius" Value="12,12,12,12" />
             </Style>
             <Style x:Key="ListContacts" TargetType="BoxView">
-                <Setter Property="Margin" Value="60,110,0,0" />
+                <Setter Property="Margin" Value="10,110,0,0" />
             </Style>
             <Style x:Key="RecentChat" TargetType="BoxView">
                 <Setter Property="Color" Value="White" />
@@ -96,7 +97,7 @@
                     <Frame WidthRequest="50"
                            HeightRequest="50"
                            CornerRadius="25"
-                           BackgroundColor="White">
+                           BackgroundColor="#5F9EA096">
                         <Image Source="search.png"
                                WidthRequest="40"
                                HeightRequest="40"
@@ -106,11 +107,15 @@
                 </Grid>
                 <BoxView
                     Style="{StaticResource contactList}"/>
-                <ScrollView>
+                <ScrollView Orientation="Horizontal">
                     <StackLayout Orientation="Horizontal"
                                  Style="{StaticResource ListContacts}"
-                                 BindableLayout.ItemsSource="{Binding Users}"
-                                 Padding="5">
+                                 BindableLayout.ItemsSource="{Binding Users}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <templates:SuggestedItemTemplate />
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
                     </StackLayout>
                 </ScrollView>
             </Grid>
@@ -123,7 +128,11 @@
                 <CollectionView 
                     ItemsSource="{Binding RecentChat}"
                     Style="{StaticResource RecentChatAdorned}">
-                    
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <templates:RecentChatItemTemplate/>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
                 </CollectionView>
             </Grid>
         </Grid>

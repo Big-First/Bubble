@@ -1,25 +1,40 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\Bubble\\Bubble\\",
+  "WorkspaceRootPath": "I:\\Bubble\\Bubble\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\controls\\borderlessentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|i:\\bubble\\bubble\\bubble\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\views\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|i:\\bubble\\bubble\\bubble\\views\\homeview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\views\\homeview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|i:\\bubble\\bubble\\bubble\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|i:\\bubble\\bubble\\bubble\\controls\\borderlessentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\controls\\borderlessentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|i:\\bubble\\bubble\\bubble\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|i:\\bubble\\bubble\\bubble\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\converters\\colortobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|i:\\bubble\\bubble\\bubble\\converters\\colortobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\converters\\colortobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|j:\\bubble\\bubble\\bubble\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|i:\\bubble\\bubble\\bubble\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{00189978-37E5-46CB-8F5D-6D054BD0B195}|Bubble\\Bubble.csproj|solutionrelative:bubble\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -34,11 +49,59 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeView.xaml.cs",
+              "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\Views\\HomeView.xaml.cs",
+              "RelativeDocumentMoniker": "Bubble\\Views\\HomeView.xaml.cs",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Views\\HomeView.xaml.cs",
+              "RelativeToolTip": "Bubble\\Views\\HomeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T01:33:23.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Xamarin.Android.Common.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
+              "ViewState": "AgIAABQKAAAAAAAAAIA4wB0KAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-09T02:12:09.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\Views\\HomeView.xaml",
+              "RelativeDocumentMoniker": "Bubble\\Views\\HomeView.xaml",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Views\\HomeView.xaml",
+              "RelativeToolTip": "Bubble\\Views\\HomeView.xaml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAwGYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-09T02:12:04.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Bubble\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "Bubble\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T02:11:57.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "User.cs",
-              "DocumentMoniker": "J:\\Bubble\\Bubble\\Bubble\\Models\\User.cs",
+              "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\Models\\User.cs",
               "RelativeDocumentMoniker": "Bubble\\Models\\User.cs",
-              "ToolTip": "J:\\Bubble\\Bubble\\Bubble\\Models\\User.cs",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Models\\User.cs",
               "RelativeToolTip": "Bubble\\Models\\User.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAwAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -46,37 +109,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Message.cs",
-              "DocumentMoniker": "J:\\Bubble\\Bubble\\Bubble\\Models\\Message.cs",
+              "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\Models\\Message.cs",
               "RelativeDocumentMoniker": "Bubble\\Models\\Message.cs",
-              "ToolTip": "J:\\Bubble\\Bubble\\Bubble\\Models\\Message.cs",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Models\\Message.cs",
               "RelativeToolTip": "Bubble\\Models\\Message.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAwAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:57:54.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T12:57:54.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "BorderlessEntry.cs",
-              "DocumentMoniker": "J:\\Bubble\\Bubble\\Bubble\\Controls\\BorderlessEntry.cs",
+              "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\Controls\\BorderlessEntry.cs",
               "RelativeDocumentMoniker": "Bubble\\Controls\\BorderlessEntry.cs",
-              "ToolTip": "J:\\Bubble\\Bubble\\Bubble\\Controls\\BorderlessEntry.cs",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Controls\\BorderlessEntry.cs",
               "RelativeToolTip": "Bubble\\Controls\\BorderlessEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:57:04.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T12:57:04.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ColorToBrushConverter.cs",
-              "DocumentMoniker": "J:\\Bubble\\Bubble\\Bubble\\Converters\\ColorToBrushConverter.cs",
+              "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\Converters\\ColorToBrushConverter.cs",
               "RelativeDocumentMoniker": "Bubble\\Converters\\ColorToBrushConverter.cs",
-              "ToolTip": "J:\\Bubble\\Bubble\\Bubble\\Converters\\ColorToBrushConverter.cs",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Converters\\ColorToBrushConverter.cs",
               "RelativeToolTip": "Bubble\\Converters\\ColorToBrushConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -84,15 +145,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
-              "DocumentMoniker": "J:\\Bubble\\Bubble\\Bubble\\App.xaml",
+              "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\App.xaml",
               "RelativeDocumentMoniker": "Bubble\\App.xaml",
-              "ToolTip": "J:\\Bubble\\Bubble\\Bubble\\App.xaml",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\App.xaml",
               "RelativeToolTip": "Bubble\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T12:54:58.472Z"
+              "WhenOpened": "2025-02-27T12:54:58.472Z",
+              "EditorCaption": ""
             }
           ]
         }
