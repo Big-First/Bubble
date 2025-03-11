@@ -2,6 +2,7 @@
 
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Bubble.ViewModels"
              x:Class="Bubble.Views.Templates.SuggestedItemTemplate">
     <ContentView.Resources>
         <ResourceDictionary>
@@ -15,6 +16,11 @@
     <ContentView.Content>
         <Grid
              Style="{StaticResource SugestContainer}">
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer                
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomeViewModel}}, Path=DetailCommand}"      
+                    CommandParameter="{Binding}"/>
+            </Grid.GestureRecognizers>
             <Frame 
                 BackgroundColor="Azure"
                 CornerRadius="80" >
