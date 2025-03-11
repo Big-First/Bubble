@@ -5,6 +5,9 @@
              xmlns:viewModels="clr-namespace:Bubble.ViewModels"
              xmlns:templates="clr-namespace:Bubble.Views.Templates"
              x:Class="Bubble.Views.HomeView">
+    <ContentPage.BindingContext>
+        <viewModels:HomeViewModel />
+    </ContentPage.BindingContext>
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -49,10 +52,6 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-    <ContentPage.BindingContext>
-        <viewModels:HomeViewModel  />
-    </ContentPage.BindingContext>
-    
     <ContentPage.Content>
         <Grid
             BackgroundColor="{StaticResource PrimaryColor}"
@@ -61,35 +60,6 @@
             <!-- Título -->
             <Label Text="Chat With your Friends!"
                    Style="{StaticResource TitleTextHome}"/>
-
-            <!-- Ícone de pesquisa -->
-            <!--
-            <Grid
-                <Grid Style="{StaticResource SearchIcon}">
-                    <Frame WidthRequest="50"
-                           HeightRequest="50"
-                           CornerRadius="25"
-                           BackgroundColor="White">
-                        <Image Source="search.png"
-                               WidthRequest="40"
-                               HeightRequest="40"
-                               Aspect="AspectFit"/>
-                    </Frame>
-                    <ScrollView
-                        Grid.Column="1">
-                        <StackLayout Orientation="Horizontal"
-                                     BindableLayout.ItemsSource="{Binding Users}"
-                                     Padding="5">
-                            
-                            
-                        </StackLayout>
-                    </ScrollView>
-                </Grid>
-            </Grid>
-            -->
-            <!-- box com lista de contatos -->
-            <!-- SearchButton -->
-            
             <Grid
                 RowDefinitions="Auto, *">
                 <Grid
@@ -103,7 +73,6 @@
                                HeightRequest="40"
                                Aspect="AspectFit"/>
                     </Frame>
-                
                 </Grid>
                 <BoxView
                     Style="{StaticResource contactList}"/>
@@ -125,7 +94,7 @@
                 <BoxView
                     Style="{StaticResource RecentChat}"/>
                 <!-- Lista de conversas -->
-                <CollectionView 
+                <CollectionView
                     ItemsSource="{Binding RecentChat}"
                     Style="{StaticResource RecentChatAdorned}">
                     <CollectionView.ItemTemplate>

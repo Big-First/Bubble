@@ -2,6 +2,7 @@
 using System.Windows.Input;
 using Bubble.Models;
 using Bubble.Services;
+using Bubble.Views;
 
 namespace Bubble.ViewModels
 {
@@ -43,9 +44,10 @@ namespace Bubble.ViewModels
             RecentChat = new ObservableCollection<Message>(MessageService.Instance.GetChats());
         }
 
-        void OnNavigate(object parameter)
+        public async void OnNavigate(object parameter)
         {
-            NavigationService.Instance.NavigateToAsync<DetailViewModel>(parameter);
+            Console.WriteLine($"{nameof(OnNavigate)} >> {parameter == null}");
+            await Shell.Current.GoToAsync($"detail?parameter={parameter}");
         }
     }
 }
