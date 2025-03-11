@@ -11,6 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/Views/Templates/SuggestedItemTemplate.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Views/Templates/SuggestedItemTemplate.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/Views/Templates/SuggestedItemTemplate.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Views/Templates/SuggestedItemTemplate.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" afterDir="false" />
@@ -51,7 +54,9 @@
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/intermediatexaml/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/intermediatexaml/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/ref/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/ref/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/refint/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/refint/Bubble.dll" afterDir="false" />
@@ -162,7 +167,7 @@
       <workItem from="1741649768088" duration="2518000" />
       <workItem from="1741664781246" duration="5316000" />
       <workItem from="1741699891400" duration="6822000" />
-      <workItem from="1741721659803" duration="5849000" />
+      <workItem from="1741721659803" duration="7485000" />
     </task>
     <servers />
   </component>

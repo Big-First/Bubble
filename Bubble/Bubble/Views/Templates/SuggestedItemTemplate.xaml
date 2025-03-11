@@ -9,17 +9,14 @@
             <Style x:Key="SugestContainer" TargetType="Grid">
                 <Setter Property="HeightRequest" Value="60" />
                 <Setter Property="WidthRequest" Value="60" />
-                <Setter Property="Margin" Value="5,0,0,0" />
+                <Setter Property="Margin" Value="5,0,5,0" />
             </Style>
         </ResourceDictionary>
     </ContentView.Resources>
     <ContentView.Content>
-        <Grid
-             Style="{StaticResource SugestContainer}">
+        <Grid Style="{StaticResource SugestContainer}">
             <Grid.GestureRecognizers>
-                <TapGestureRecognizer                
-                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomeViewModel}}, Path=DetailCommand}"      
-                    CommandParameter="{Binding}"/>
+                <TapGestureRecognizer Tapped="OnTestTapped" />
             </Grid.GestureRecognizers>
             <Frame 
                 BackgroundColor="Azure"
