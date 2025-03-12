@@ -64,15 +64,19 @@
                 RowDefinitions="Auto, *">
                 <Grid
                     Style="{StaticResource SearchButtonB}">
-                    <Frame WidthRequest="50"
-                           HeightRequest="50"
-                           CornerRadius="25"
-                           BackgroundColor="#5F9EA096">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer                
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:HomeViewModel}}, Path=DetailCommand}"      
+                            CommandParameter="{Binding}"/>
+                    </Grid.GestureRecognizers>
+                    <Ellipse WidthRequest="60"
+                             HeightRequest="60"
+                             BackgroundColor="#5F9EA096" />
                         <Image Source="search.png"
                                WidthRequest="40"
                                HeightRequest="40"
                                Aspect="AspectFit"/>
-                    </Frame>
+                    
                 </Grid>
                 <BoxView
                     Style="{StaticResource contactList}"/>

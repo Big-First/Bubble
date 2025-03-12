@@ -18,9 +18,15 @@ public partial class SuggestedItemTemplate : ContentView
     
     void OnTestTapped(object sender, EventArgs e)
     {
+        Console.WriteLine("OnTestTapped called");
+
         if (BindingContext is Message chatItem)
         {
             Console.WriteLine($"OnTestTapped >> Navigating to chat with {chatItem.Sender.Name}");
+        }
+        else
+        {
+            Console.WriteLine("BindingContext is not a Message.");
         }
     }
 }

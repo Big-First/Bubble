@@ -63,7 +63,7 @@
               "RelativeDocumentMoniker": "Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml",
               "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml",
               "RelativeToolTip": "Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-11T03:40:42.875Z",
               "EditorCaption": ""
@@ -74,12 +74,11 @@
               "Title": "RecentChatItemTemplate.xaml.cs",
               "DocumentMoniker": "I:\\Bubble\\Bubble\\Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml.cs",
               "RelativeDocumentMoniker": "Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml.cs",
-              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml.cs*",
-              "RelativeToolTip": "Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml.cs*",
+              "ToolTip": "I:\\Bubble\\Bubble\\Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml.cs",
+              "RelativeToolTip": "Bubble\\Views\\Templates\\RecentChatItemTemplate.xaml.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T03:40:08.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T03:40:08.306Z"
             },
             {
               "$type": "Document",
@@ -113,8 +112,7 @@
               "RelativeToolTip": "Bubble\\Views\\HomeView.xaml",
               "ViewState": "AgIAAH0AAAAAAAAAAAAxwIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-09T02:12:04.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T02:12:04.488Z"
             },
             {
               "$type": "Document",
@@ -126,8 +124,7 @@
               "RelativeToolTip": "Bubble\\ViewModels\\HomeViewModel.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAACUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T02:11:57.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T02:11:57.035Z"
             },
             {
               "$type": "Document",
@@ -187,8 +184,7 @@
               "RelativeToolTip": "Bubble\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T12:54:58.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T12:54:58.472Z"
             }
           ]
         }
