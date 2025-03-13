@@ -3,12 +3,101 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
  x:Class="Bubble.Views.DetailView">
+    <ContentPage.Resources>
+        <Style x:Key="Back" TargetType="Grid">
+            <Setter Property="Margin" Value="-360,0,0,0"/>
+        </Style>
+        <Style x:Key="ContactIcon" TargetType="Grid">
+            <Setter Property="Margin" Value="30,-650,0,0"/>
+        </Style>
+        <Style x:Key="ContactName" TargetType="Label">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="FontFamily" Value="Metropolis Medium"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="WidthRequest" Value="160"/>
+            <Setter Property="Margin" Value="-100,-20,0,0"/>
+        </Style>
+        <Style x:Key="Chat" TargetType="BoxView">
+            <Setter Property="Color" Value="Azure" />
+            <Setter Property="Margin" Value="-20,20,-20,60" />
+            <Setter Property="CornerRadius" Value="14,14,14,14" />
+        </Style>
+        <Style x:Key="Input" TargetType="BoxView">
+            <Setter Property="Color" Value="Azure" />
+            <Setter Property="Margin" Value="-10,560,50,-10" />
+            <Setter Property="CornerRadius" Value="14,14,14,14" />
+        </Style>
+        <Style x:Key="Send" TargetType="Grid">
+            <Setter Property="Margin" Value="0,570,-340,0" />
+        </Style>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
-            <Label
-                Text="Detail !!"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="CenterAndExpand"/>
-        </StackLayout>
+        <Grid
+            BackgroundColor="CadetBlue"
+            RowDefinitions="Auto, *"
+            Padding="20">
+                <Grid
+                    Style="{StaticResource Back}"
+                    >
+                    <Image
+                        Source="back.png"
+                        WidthRequest="28"
+                        HeightRequest="28"
+                        Aspect="AspectFit"/>
+                </Grid>
+                    <Grid
+                        ColumnDefinitions="Auto, *"
+                        Style="{StaticResource ContactIcon}"
+                        Row="1">
+                        <Ellipse
+                            HeightRequest="58"
+                            WidthRequest="58"
+                            BackgroundColor="Azure"/>
+                        <Image Source="emoji8.png"
+                               WidthRequest="50"
+                               HeightRequest="50"
+                               Aspect="AspectFit"/>
+                        <Label
+                            Grid.Column="1"
+                            Style="{StaticResource ContactName}"
+                            Text="UserName"
+                            VerticalOptions="Center"/>
+                    </Grid>
+            <Grid
+                Grid.Row="1">
+                <BoxView
+                    Style="{StaticResource Chat}"/>
+                <CollectionView>
+                </CollectionView>
+            </Grid>
+            <Grid Row="2">
+                <Grid
+                    ColumnDefinitions="Auto, *">
+                    <Grid
+                        Grid.Column="1">
+                        <BoxView
+                            Style="{StaticResource Input}"
+                            HeightRequest="60"/>
+                        <Grid
+                            Grid.Column="2"
+                            Style="{StaticResource  Send}">
+                            <Ellipse
+                                BackgroundColor="Azure"
+                                HeightRequest="50"
+                                WidthRequest="60"/>
+                            <Image Source="Send.png"
+                                   WidthRequest="50"
+                                   HeightRequest="50"
+                                   Aspect="AspectFit"/>
+                        </Grid>
+                        
+                    </Grid>
+                    
+                </Grid>
+                
+            </Grid>
+        </Grid>
+        
     </ContentPage.Content>
 </ContentPage>

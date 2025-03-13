@@ -214,6 +214,9 @@
     <AppxPackagedFile Include="I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png">
+      <PackagePath>back.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\call.scale-100.png">
       <PackagePath>call.scale-100.png</PackagePath>
     </AppxPackagedFile>

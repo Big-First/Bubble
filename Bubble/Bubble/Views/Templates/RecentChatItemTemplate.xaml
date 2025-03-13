@@ -57,7 +57,7 @@
         <Grid ColumnDefinitions="Auto, *" RowSpacing="0" Margin="12, 10">
             <!-- Gestos -->
             <Grid.GestureRecognizers>
-                <TapGestureRecognizer                
+                <TapGestureRecognizer
                     Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomeViewModel}}, Path=DetailCommand}"      
                     CommandParameter="{Binding}"/>
             </Grid.GestureRecognizers>
