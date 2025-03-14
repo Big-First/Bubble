@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/Resources/Images/Send.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Resources/Images/send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/Resources/Images/Send.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/Views/DetailView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Views/DetailView.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" afterDir="false" />
@@ -199,7 +199,7 @@
       <workItem from="1741795420318" duration="7486000" />
       <workItem from="1741880127866" duration="101000" />
       <workItem from="1741880277193" duration="56000" />
-      <workItem from="1741880387804" duration="17183000" />
+      <workItem from="1741880387804" duration="17782000" />
     </task>
     <servers />
   </component>
