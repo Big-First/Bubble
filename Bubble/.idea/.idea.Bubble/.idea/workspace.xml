@@ -15,12 +15,10 @@
       <change beforePath="$PROJECT_DIR$/Bubble/Views/DetailView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Views/DetailView.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/com.companyname.bubble.apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.build.appxrecipe" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.build.appxrecipe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.pdb" afterDir="false" />
@@ -29,16 +27,13 @@
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/Bubble.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/environment.x86_64.ll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/environment.x86_64.ll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/environment.x86_64.o" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/environment.x86_64.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/app_shared_libraries/x86_64/libxamarin-app.so" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/app_shared_libraries/x86_64/libxamarin-app.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/buildid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/buildid.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/devices.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/devices.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/libraryprojectimports.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" afterDir="false" />
@@ -62,7 +57,6 @@
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/ref/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/ref/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/refint/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/refint/Bubble.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +178,7 @@
       <workItem from="1741880277193" duration="56000" />
       <workItem from="1741880387804" duration="17782000" />
       <workItem from="1741922826961" duration="1961000" />
+      <workItem from="1741966161556" duration="8388000" />
     </task>
     <servers />
   </component>
