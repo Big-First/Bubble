@@ -36,6 +36,7 @@ I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dot
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
+I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable\back.png
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable\call.png
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable\emoji1.png
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable\emoji10.png
@@ -1063,4 +1064,3 @@ I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\stamp\_ConvertResourcesCases.st
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-I:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\resizetizer\r\drawable\back.png
