@@ -24,8 +24,8 @@ namespace Bubble.ViewModels
         {
             Messages = new ObservableCollection<Message>
             {
-                new Message { Sender = null,Text = "Olá!", Time = DateTime.UtcNow.ToString()},
-                new Message { Sender = null,Text = "Tudo bem?", Time = DateTime.UtcNow.ToString() }
+                new Message { Sender = null,Text = "Olá!", Time = DateTime.UtcNow.ToString("dd/MM/yyyy HH:mm")},
+                new Message { Sender = null,Text = "Tudo bem?", Time = DateTime.UtcNow.ToString("dd/MM/yyyy HH:mm") }
             };
             foreach (var msg in Messages)
             {
