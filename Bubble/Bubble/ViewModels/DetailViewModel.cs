@@ -19,6 +19,19 @@ namespace Bubble.ViewModels
                 OnPropertyChanged();
             }
         }
+        
+        public DetailViewModel()
+        {
+            Messages = new ObservableCollection<Message>
+            {
+                new Message { Sender = null,Text = "Olá!", Time = DateTime.UtcNow.ToString()},
+                new Message { Sender = null,Text = "Tudo bem?", Time = DateTime.UtcNow.ToString() }
+            };
+            foreach (var msg in Messages)
+            {
+                Console.WriteLine($"Mensagem carregada: {msg.Text}");
+            }
+        }
 
         public ObservableCollection<Message> Messages
         {

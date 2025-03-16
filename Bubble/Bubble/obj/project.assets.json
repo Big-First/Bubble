@@ -33168,11 +33168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
+      "projectUniqueName": "J:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
       "projectName": "Bubble",
-      "projectPath": "I:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
+      "projectPath": "J:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
       "packagesPath": "C:\\Users\\MPLopes\\.nuget\\packages\\",
-      "outputPath": "I:\\Bubble\\Bubble\\Bubble\\obj\\",
+      "outputPath": "J:\\Bubble\\Bubble\\Bubble\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

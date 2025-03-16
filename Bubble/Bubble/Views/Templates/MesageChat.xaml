@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bubble.Views.Templates.MesageChat">
+    <ContentView.Resources>
+        <Style x:Key="Message" TargetType="Grid">
+            <Setter Property="Margin" Value="20,10,0,10" />
+        </Style>
+        <Style x:Key="booble" TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="CornflowerBlue" />
+            <Setter Property="Margin" Value="0,0,20,0" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="CornerRadius" Value="25"/>
+            <Setter Property="HasShadow" Value="False" />
+            <Setter Property="HorizontalOptions" Value="Start" />
+            <Setter Property="VerticalOptions" Value="Center" />
+        </Style>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <Grid
+            Style="{StaticResource Message}">
+            <Frame
+                Style="{StaticResource booble}">
+                <Label Text="{Binding Text}" 
+                       TextColor="White"
+                       FontSize="14"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+            </Frame>
+            <Label Text="{Binding Time}" 
+                   TextColor="Black"
+                   FontSize="14"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            
+        </Grid>
+    </ContentView.Content>
+</ContentView>
