@@ -7,26 +7,59 @@
         <Style x:Key="Message" TargetType="Grid">
             <Setter Property="Margin" Value="20,10,0,10" />
         </Style>
-        <Style x:Key="booble" TargetType="Frame">
-            <Setter Property="BackgroundColor" Value="CornflowerBlue" />
-            <Setter Property="Margin" Value="0,0,20,0" />
-            <Setter Property="Padding" Value="10" />
-            <Setter Property="CornerRadius" Value="25"/>
-            <Setter Property="HasShadow" Value="False" />
-            <Setter Property="HorizontalOptions" Value="Start" />
-            <Setter Property="VerticalOptions" Value="Center" />
+        <!-- Estilo padrão das bolhas -->
+        <Style x:Key="BubbleStyle" TargetType="Frame">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="HasShadow" Value="False"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="BackgroundColor" Value="CornflowerBlue"/>
+            <Setter Property="HorizontalOptions" Value="Start"/>
+        </Style>
+
+        <!-- Estilo para bolhas de outras pessoas -->
+        <Style x:Key="BubbleOtherStyle" TargetType="Frame" BasedOn="{StaticResource BubbleStyle}">
+            <Setter Property="BackgroundColor" Value="Olive"/>
+            <Setter Property="HorizontalOptions" Value="End"/>
         </Style>
     </ContentView.Resources>
     <ContentView.Content>
         <Grid
             Style="{StaticResource Message}">
+            <!-- Definição da bolha de mensagem -->
+            <Frame Style="{DynamicResource BubbleStyle}">
+                <Frame.Triggers>
+                    <!-- Se Sender for diferente de null, usa o estilo da outra pessoa -->
+                    <DataTrigger TargetType="Frame" Binding="{Binding Sender}" Value="{x:Null}">
+                        <Setter Property="Style" Value="{StaticResource BubbleOtherStyle}" />
+                    </DataTrigger>
+                </Frame.Triggers>
+                <StackLayout>
+                    <Label Text="{Binding Text}"
+                           TextColor="White"
+                           FontFamily="Metropolis Medium"
+                           FontSize="14"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center" />
+                    
+                </StackLayout>
+            </Frame>
+            <Label Text="{Binding Time}"
+                   TextColor="Gray"
+                   FontFamily="Metropolis Medium"
+                   FontSize="10"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"
+                   Margin="0,0,0,0" />
+            <!--
             <Frame
                 Style="{StaticResource booble}">
                 <Label Text="{Binding Text}" 
                        TextColor="White"
                        FontSize="14"
                        HorizontalOptions="Center"
-                       VerticalOptions="Center"/>
+                       VerticalOptions="End"/>
             </Frame>
             <Label Text="{Binding Time}" 
                    TextColor="Gray"
@@ -34,6 +67,7 @@
                    HorizontalOptions="Center"
                    VerticalOptions="End"
                    Margin="0,0,0,0"/>
+            -->
         </Grid>
     </ContentView.Content>
 </ContentView>

@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/Models/Message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Models/Message.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/ViewModels/DetailViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/ViewModels/DetailViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/Views/Templates/MesageChat.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Views/Templates/MesageChat.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" afterDir="false" />
@@ -189,7 +191,7 @@
       <workItem from="1741994511028" duration="8163000" />
       <workItem from="1742050348126" duration="4653000" />
       <workItem from="1742140324745" duration="2047000" />
-      <workItem from="1742142945229" duration="3262000" />
+      <workItem from="1742142945229" duration="7860000" />
     </task>
     <servers />
   </component>
