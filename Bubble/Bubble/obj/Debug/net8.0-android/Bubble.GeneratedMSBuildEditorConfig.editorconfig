@@ -12,50 +12,74 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bubble
-build_property.ProjectDir = J:\Bubble\Bubble\Bubble\
+build_property.ProjectDir = I:\Bubble\Bubble\Bubble\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[J:/Bubble/Bubble/Bubble/App.xaml]
+[I:/Bubble/Bubble/Bubble/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bubble.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[J:/Bubble/Bubble/Bubble/AppShell.xaml]
+[I:/Bubble/Bubble/Bubble/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bubble.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[J:/Bubble/Bubble/Bubble/MainPage.xaml]
+[I:/Bubble/Bubble/Bubble/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bubble.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[J:/Bubble/Bubble/Bubble/Resources/Styles/Colors.xaml]
+[I:/Bubble/Bubble/Bubble/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[J:/Bubble/Bubble/Bubble/Resources/Styles/Styles.xaml]
+[I:/Bubble/Bubble/Bubble/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[J:/Bubble/Bubble/Bubble/Views/DetailView.xaml]
+[I:/Bubble/Bubble/Bubble/Views/DetailView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.DetailView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DetailView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DetailView.xaml
 
-[J:/Bubble/Bubble/Bubble/Views/HomeView.xaml]
+[I:/Bubble/Bubble/Bubble/Views/HomeView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.HomeView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomeView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomeView.xaml
+
+[I:/Bubble/Bubble/Bubble/Views/Templates/ReceiverChatMessageItemTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.Templates.ReceiverChatMessageItemTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Templates\ReceiverChatMessageItemTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Templates\ReceiverChatMessageItemTemplate.xaml
+
+[I:/Bubble/Bubble/Bubble/Views/Templates/RecentChatItemTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.Templates.RecentChatItemTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Templates\RecentChatItemTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Templates\RecentChatItemTemplate.xaml
+
+[I:/Bubble/Bubble/Bubble/Views/Templates/SenderChatMessageItemTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.Templates.SenderChatMessageItemTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Templates\SenderChatMessageItemTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Templates\SenderChatMessageItemTemplate.xaml
+
+[I:/Bubble/Bubble/Bubble/Views/Templates/SuggestedItemTemplate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.Templates.SuggestedItemTemplate.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Templates\SuggestedItemTemplate.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Templates\SuggestedItemTemplate.xaml

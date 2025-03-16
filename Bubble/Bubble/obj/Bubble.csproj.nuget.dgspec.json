@@ -1,20 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Bubble\\Bubble\\Bubble\\Bubble.csproj": {}
+    "I:\\Bubble\\Bubble\\Bubble\\Bubble.csproj": {}
   },
   "projects": {
-    "J:\\Bubble\\Bubble\\Bubble\\Bubble.csproj": {
+    "I:\\Bubble\\Bubble\\Bubble\\Bubble.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
+        "projectUniqueName": "I:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
         "projectName": "Bubble",
-        "projectPath": "J:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
+        "projectPath": "I:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
         "packagesPath": "C:\\Users\\MPLopes\\.nuget\\packages\\",
-        "outputPath": "J:\\Bubble\\Bubble\\Bubble\\obj\\",
+        "outputPath": "I:\\Bubble\\Bubble\\Bubble\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "H:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
@@ -33,6 +32,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +62,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-android34.0": {

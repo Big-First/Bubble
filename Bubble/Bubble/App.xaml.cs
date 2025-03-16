@@ -7,7 +7,7 @@ namespace Bubble
         public App()
         {
             InitializeComponent();
-            MainPage = new HomeView();
+            MainPage = new AppShell();
         }
     }
 }

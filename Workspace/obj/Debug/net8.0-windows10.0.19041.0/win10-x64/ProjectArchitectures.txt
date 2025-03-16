@@ -1,0 +1,1 @@
+I:\Bubble\Workspace\Workspace.csproj;x64

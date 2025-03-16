@@ -4,8 +4,16 @@
              xmlns:local="clr-namespace:Bubble"
              x:Class="Bubble.App">
     <Application.Resources>
-        
         <Color x:Key="PrimaryColor">CadetBlue</Color>
         <Color x:Key="SecondaryColor">NavajoWhite</Color>
+        
+        <!-- Desabilita a barra de navegação globalmente para o Shell -->
+        <Style TargetType="Shell">
+            <Setter Property="Shell.NavBarIsVisible" Value="False" />
+        </Style>
+
+        <Style TargetType="NavigationPage">
+            <Setter Property="Shell.NavBarIsVisible" Value="False" />
+        </Style>
     </Application.Resources>
 </Application>

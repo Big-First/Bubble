@@ -1,14 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
- xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
- x:Class="Bubble.Views.DetailView">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bubble.Views.DetailView">
+    <ContentPage.Resources>
+        <Style x:Key="Back" TargetType="Grid">
+            <Setter Property="Margin" Value="0,0,0,0" />
+        </Style>
+        <Style x:Key="ContactIcon" TargetType="Grid">
+            <Setter Property="Margin" Value="30,0,0,0" />
+        </Style>
+        <Style x:Key="ContactName" TargetType="Label">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="FontFamily" Value="Metropolis Medium" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="WidthRequest" Value="160" />
+            <Setter Property="Margin" Value="100,0,0,0" />
+        </Style>
+        <Style x:Key="Chat" TargetType="BoxView">
+            <Setter Property="Color" Value="Azure" />
+            <Setter Property="Margin" Value="0,20,0,60" />
+            <Setter Property="CornerRadius" Value="14,14,14,14" />
+        </Style>
+        <Style x:Key="Input" TargetType="BoxView">
+            <Setter Property="Color" Value="Azure" />
+            <Setter Property="Margin" Value="12,0,62,0" />
+            <Setter Property="CornerRadius" Value="5" />
+        </Style>
+        <Style x:Key="Send" TargetType="Grid">
+            <Setter Property="Margin" Value="300,0,0,0" />
+        </Style>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
-            <Label
-                Text="Detail !!"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="CenterAndExpand"/>
-        </StackLayout>
+        <Grid
+            BackgroundColor="CadetBlue"
+            RowDefinitions="Auto, *"
+            Padding="20">
+            <Grid
+                Style="{StaticResource Back}"
+                Row="0"
+                HorizontalOptions="Start"
+                VerticalOptions="Center">
+                <Image
+                    Source="back.png"
+                    WidthRequest="28"
+                    HeightRequest="28"
+                    Aspect="AspectFit" />
+            </Grid>
+            <Grid
+                Style="{StaticResource ContactIcon}"
+                Row="0"
+                HorizontalOptions="Start"
+                VerticalOptions="Start">
+                <Ellipse
+                    HeightRequest="58"
+                    WidthRequest="58"
+                    BackgroundColor="Azure" />
+                <Image Source="emoji8.png"
+                       WidthRequest="50"
+                       HeightRequest="50"
+                       Aspect="AspectFit" />
+            </Grid>
+            <Grid
+                Row="0"
+                VerticalOptions="Center"
+                HorizontalOptions="Start">
+                <Label
+                    Style="{StaticResource ContactName}"
+                    Text="UserName" />
+            </Grid>
+            <Grid
+                Grid.Row="1">
+                <BoxView
+                    Style="{StaticResource Chat}" />
+                <CollectionView>
+                </CollectionView>
+            </Grid>
+            <Grid
+                Row="2"
+                HorizontalOptions="Fill"
+                VerticalOptions="End">
+                <BoxView
+                    Style="{StaticResource Input}"/>
+                <Entry
+                    WidthRequest="300"
+                    VerticalOptions="End"
+                    Placeholder="Digite uma mensagem..."
+                    BackgroundColor="Transparent"
+                    Margin="0,0,50,-8" />
+            </Grid>
+            <Grid
+                Row="2"
+                Style="{StaticResource Send}"
+                HorizontalOptions="Center"
+                VerticalOptions="End">
+                <Image Source="send.png"
+                       WidthRequest="32"
+                       HeightRequest="32"
+                       Aspect="AspectFit"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center" />
+                
+            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
