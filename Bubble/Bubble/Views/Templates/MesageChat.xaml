@@ -19,8 +19,13 @@
         </Style>
 
         <!-- Estilo para bolhas de outras pessoas -->
-        <Style x:Key="BubbleOtherStyle" TargetType="Frame" BasedOn="{StaticResource BubbleStyle}">
-            <Setter Property="BackgroundColor" Value="Olive"/>
+        <Style x:Key="BubbleOtherStyle" TargetType="Frame">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="HasShadow" Value="False"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="BackgroundColor" Value="OliveDrab"/>
             <Setter Property="HorizontalOptions" Value="End"/>
         </Style>
     </ContentView.Resources>
@@ -31,7 +36,7 @@
             <Frame Style="{DynamicResource BubbleStyle}">
                 <Frame.Triggers>
                     <!-- Se Sender for diferente de null, usa o estilo da outra pessoa -->
-                    <DataTrigger TargetType="Frame" Binding="{Binding Sender}" Value="{x:Null}">
+                    <DataTrigger TargetType="Frame" Binding="{Binding IsOwnMessage}" Value="True">
                         <Setter Property="Style" Value="{StaticResource BubbleOtherStyle}" />
                     </DataTrigger>
                 </Frame.Triggers>
