@@ -76,35 +76,62 @@
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send.scale-100.png">
-      <PackagePath>send.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji6.scale-100.png">
-      <PackagePath>emoji6.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
-      <PackagePath>search.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji9.scale-100.png">
-      <PackagePath>emoji9.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji10.scale-100.png">
+      <PackagePath>emoji10.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji3.scale-100.png">
       <PackagePath>emoji3.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\record.scale-100.png">
-      <PackagePath>record.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
+      <PackagePath>search.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji7.scale-100.png">
-      <PackagePath>emoji7.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send.scale-100.png">
+      <PackagePath>send.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji1.scale-100.png">
-      <PackagePath>emoji1.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji4.scale-100.png">
+      <PackagePath>emoji4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji9.scale-100.png">
+      <PackagePath>emoji9.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji5.scale-100.png">
       <PackagePath>emoji5.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji6.scale-100.png">
+      <PackagePath>emoji6.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\record.scale-100.png">
+      <PackagePath>record.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji2.scale-100.png">
       <PackagePath>emoji2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji1.scale-100.png">
+      <PackagePath>emoji1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji7.scale-100.png">
+      <PackagePath>emoji7.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\call.scale-100.png">
+      <PackagePath>call.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png">
+      <PackagePath>back.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
@@ -246,33 +273,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji8.scale-100.png">
       <PackagePath>emoji8.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji4.scale-100.png">
-      <PackagePath>emoji4.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji10.scale-100.png">
-      <PackagePath>emoji10.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\call.scale-100.png">
-      <PackagePath>call.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png">
-      <PackagePath>back.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MPLopes\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
