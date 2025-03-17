@@ -56,9 +56,9 @@ namespace Bubble.ViewModels
             return base.InitializeAsync(navigationData);
         }
 
-        void OnBack()
+        async void OnBack()
         {
-            NavigationService.Instance.NavigateBackAsync();
+            await Shell.Current.GoToAsync($"Home");
         }
     }
 }

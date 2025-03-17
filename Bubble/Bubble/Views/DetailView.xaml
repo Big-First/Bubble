@@ -50,6 +50,11 @@
                 Row="0"
                 HorizontalOptions="Start"
                 VerticalOptions="Center">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer                
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:DetailViewModel}}, Path=DetailCommand}"      
+                        CommandParameter="{Binding}"/>
+                </Grid.GestureRecognizers>
                 <Image
                     Source="back.png"
                     WidthRequest="28"
