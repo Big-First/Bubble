@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Bubble.Singletons;
+using Microsoft.Extensions.Logging;
 
 namespace Bubble;
 
@@ -6,6 +7,7 @@ public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
+        Singleton.Instance();
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()

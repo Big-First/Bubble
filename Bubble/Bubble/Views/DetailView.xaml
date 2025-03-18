@@ -35,6 +35,8 @@
             <Setter Property="CornerRadius" Value="5" />
         </Style>
         <Style x:Key="Send" TargetType="Grid">
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="HorizontalOptions" Value="End" />
             <Setter Property="Margin" Value="300,0,0,0" />
         </Style>
     </ContentPage.Resources>
@@ -48,6 +50,11 @@
                 Row="0"
                 HorizontalOptions="Start"
                 VerticalOptions="Center">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer                
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:DetailViewModel}}, Path=BackCommand}"      
+                        CommandParameter="{Binding}"/>
+                </Grid.GestureRecognizers>
                 <Image
                     Source="back.png"
                     WidthRequest="28"
@@ -63,7 +70,7 @@
                     HeightRequest="58"
                     WidthRequest="58"
                     BackgroundColor="Azure" />
-                <Image Source="emoji8.png"
+                <Image Source="{Binding ImageUser}"
                        WidthRequest="50"
                        HeightRequest="50"
                        Aspect="AspectFit" />
@@ -74,7 +81,7 @@
                 HorizontalOptions="Start">
                 <Label
                     Style="{StaticResource ContactName}"
-                    Text="UserName" />
+                    Text="{Binding User.Name}" />
             </Grid>
             <Grid
                 Grid.Row="1">
@@ -91,16 +98,16 @@
             </Grid>
             <Grid
                 Row="2"
-                HorizontalOptions="Fill"
+                HorizontalOptions="Center"
                 VerticalOptions="End">
                 <BoxView
                     Style="{StaticResource Input}"/>
                 <Entry
-                    WidthRequest="300"
+                    WidthRequest="280"
                     VerticalOptions="End"
                     Placeholder="Digite uma mensagem..."
                     BackgroundColor="Transparent"
-                    Margin="0,0,50,-8" />
+                    Margin="10,0,60,-8" />
             </Grid>
             <Grid
                 Row="2"
@@ -110,9 +117,7 @@
                 <Image Source="send.png"
                        WidthRequest="32"
                        HeightRequest="32"
-                       Aspect="AspectFit"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center" />
+                       Aspect="AspectFit" />
                 
             </Grid>
         </Grid>

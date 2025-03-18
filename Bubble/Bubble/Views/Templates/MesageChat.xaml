@@ -47,16 +47,16 @@
                            FontSize="14"
                            HorizontalOptions="Start"
                            VerticalOptions="Center" />
+                    <Label Text="{Binding Time}"
+                           TextColor="White"
+                           FontFamily="Metropolis Medium"
+                           FontSize="10"
+                           HorizontalOptions="End"
+                           VerticalOptions="End"
+                           Margin="0,0,0,0" />
                     
                 </StackLayout>
             </Frame>
-            <Label Text="{Binding Time}"
-                   TextColor="Gray"
-                   FontFamily="Metropolis Medium"
-                   FontSize="10"
-                   HorizontalOptions="Center"
-                   VerticalOptions="End"
-                   Margin="0,0,0,0" />
             <!--
             <Frame
                 Style="{StaticResource booble}">

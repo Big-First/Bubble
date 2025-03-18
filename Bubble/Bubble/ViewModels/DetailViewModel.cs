@@ -2,11 +2,13 @@
 using System.Windows.Input;
 using Bubble.Models;
 using Bubble.Services;
+using Bubble.Singletons;
 
 namespace Bubble.ViewModels
 {
-    public class DetailViewModel : ViewModelBase
+    public class DetailViewModel : ViewModelBase, IQueryAttributable
     {
+        Singleton _singleton;
         User _user;
         ObservableCollection<Message> _messages;
 
@@ -22,15 +24,6 @@ namespace Bubble.ViewModels
         
         public DetailViewModel()
         {
-            Messages = new ObservableCollection<Message>
-            {
-                new Message { Sender = null,Text = "Olá!", Time = DateTime.UtcNow.ToString("dd/MM/yyyy HH:mm")},
-                new Message { Sender = new User("Antoni Whitney", "emoji8.png", Color.FromArgb("#FFE0EC")),Text = "Tudo bem?", Time = DateTime.UtcNow.ToString("dd/MM/yyyy HH:mm") }
-            };
-            foreach (var msg in Messages)
-            {
-                Console.WriteLine($"Mensagem carregada: {msg.Text}");
-            }
         }
 
         public ObservableCollection<Message> Messages
@@ -43,22 +36,39 @@ namespace Bubble.ViewModels
             }
         }
 
-        public ICommand BackCommand => new Command(OnBack);
-
-        public override Task InitializeAsync(object navigationData)
+        public ICommand BackCommand => new Command(async () => await OnBack());
+        public string ImageUser => Singleton.Instance().user?.Image ?? "default_image.png";
+        
+        public override async Task InitializeAsync(object navigationData)
         {
-            if (navigationData is Message message)
+            if (navigationData is User user)
             {
-                User = message.Sender;
+                User = user;
                 Messages = new ObservableCollection<Message>(MessageService.Instance.GetMessages(User));
+
+                foreach (var msg in Messages)
+                {
+                    Console.WriteLine($"Mensagem carregada: {msg.Text}");
+                }
             }
 
-            return base.InitializeAsync(navigationData);
+            await base.InitializeAsync(navigationData);
+        }
+        
+        public void ApplyQueryAttributes(IDictionary<string, object> query)
+        {
+            if (query.ContainsKey("user"))
+            {
+                User = query["user"] as User;
+                Console.WriteLine($"User carregada: {User == null} >> {User.Image} >> {User.Name}");
+                Messages = new ObservableCollection<Message>(MessageService.Instance.GetMessages(User));
+            }
         }
 
-        void OnBack()
+        async Task OnBack()
         {
-            NavigationService.Instance.NavigateBackAsync();
+            Console.WriteLine($"Mensagem carregada: {nameof(OnBack)}");
+            await Shell.Current.GoToAsync("..");
         }
     }
 }
