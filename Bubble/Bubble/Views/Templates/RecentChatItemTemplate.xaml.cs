@@ -18,6 +18,7 @@ public partial class RecentChatItemTemplate : ContentView
     
     private void OnTestTapped(object sender, EventArgs e)
     {
+        /*
         var chatItem = (sender as Grid)?.BindingContext as Message;
 
         // Aqui estamos acessando o BindingContext da página principal
@@ -29,5 +30,6 @@ public partial class RecentChatItemTemplate : ContentView
         {
             homeViewModel.OnNavigate(chatItem);
         }
+        */
     }
 }

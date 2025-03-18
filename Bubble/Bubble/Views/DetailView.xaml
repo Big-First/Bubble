@@ -52,7 +52,7 @@
                 VerticalOptions="Center">
                 <Grid.GestureRecognizers>
                     <TapGestureRecognizer                
-                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:DetailViewModel}}, Path=DetailCommand}"      
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:DetailViewModel}}, Path=BackCommand}"      
                         CommandParameter="{Binding}"/>
                 </Grid.GestureRecognizers>
                 <Image
@@ -70,7 +70,7 @@
                     HeightRequest="58"
                     WidthRequest="58"
                     BackgroundColor="Azure" />
-                <Image Source="emoji8.png"
+                <Image Source="{Binding ImageUser}"
                        WidthRequest="50"
                        HeightRequest="50"
                        Aspect="AspectFit" />
@@ -81,7 +81,7 @@
                 HorizontalOptions="Start">
                 <Label
                     Style="{StaticResource ContactName}"
-                    Text="UserName" />
+                    Text="{Binding User.Name}" />
             </Grid>
             <Grid
                 Grid.Row="1">
