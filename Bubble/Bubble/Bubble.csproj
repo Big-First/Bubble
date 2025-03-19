@@ -64,4 +64,8 @@
   <ItemGroup>
     <Content Include="MauiProgram.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Repositorys\" />
+  </ItemGroup>
 </Project>

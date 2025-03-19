@@ -11,31 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bubble/Controllers/AudioController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Controllers/ControllerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Controllers/ImageController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Controllers/TextController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Controllers/VideoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Core/Node.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Core/ObjectSerialization.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Core/Server.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Enums/ActionCode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubble/Enums/RequestCode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/Models/Message.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Models/Message.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/Services/MessageService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Services/MessageService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/ViewModels/DetailViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/ViewModels/DetailViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/Views/Templates/SuggestedItemTemplate.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Views/Templates/SuggestedItemTemplate.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/Bubble.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Bubble.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +150,7 @@
       <workItem from="1742247894493" duration="14707000" />
       <workItem from="1742306737749" duration="7338000" />
       <workItem from="1742340375708" duration="185000" />
-      <workItem from="1742394554865" duration="3397000" />
+      <workItem from="1742394554865" duration="3542000" />
     </task>
     <servers />
   </component>
