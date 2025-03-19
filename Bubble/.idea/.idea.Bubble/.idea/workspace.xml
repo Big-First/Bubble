@@ -10,7 +10,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="" />
+    <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Bubble/Views/DetailView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Views/DetailView.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlTypeInfo.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlTypeInfo.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +60,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;MPLopes&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Conexao-web&quot;,
     &quot;iOS.Bubble.executor&quot;: &quot;Debug&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -147,6 +161,7 @@
       <workItem from="1742232263817" duration="2389000" />
       <workItem from="1742247894493" duration="14707000" />
       <workItem from="1742306737749" duration="7338000" />
+      <workItem from="1742340375708" duration="185000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\MPLopes\.nuget\packages\aathifmahir.maui.mauiicons.material\4.0.0\lib\net8.0-android34.0\MauiIcons.Material.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\MPLopes\.nuget\packages\aathifmahir.maui.mauiicons.core\4.0.0\lib\net8.0-android34.0\MauiIcons.Core.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\MPLopes\.nuget\packages\microsoft.maui.core\8.0.100\lib\net8.0-android34.0\Microsoft.Maui.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

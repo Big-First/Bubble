@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3J0KpFUbzI4=",
+  "dgSpecHash": "DMrmzQa0IME=",
   "success": true,
   "projectFilePath": "J:\\Bubble\\Bubble\\Bubble\\Bubble.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\MPLopes\\.nuget\\packages\\aathifmahir.maui.mauiicons.core\\4.0.0\\aathifmahir.maui.mauiicons.core.4.0.0.nupkg.sha512",
+    "C:\\Users\\MPLopes\\.nuget\\packages\\aathifmahir.maui.mauiicons.material\\4.0.0\\aathifmahir.maui.mauiicons.material.4.0.0.nupkg.sha512",
     "C:\\Users\\MPLopes\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\MPLopes\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\MPLopes\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
