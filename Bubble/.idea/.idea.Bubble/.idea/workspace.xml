@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Bubble/Bubble.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Bubble.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,7 @@
       <workItem from="1742247894493" duration="14707000" />
       <workItem from="1742306737749" duration="7338000" />
       <workItem from="1742340375708" duration="185000" />
-      <workItem from="1742394554865" duration="3542000" />
+      <workItem from="1742394554865" duration="5163000" />
     </task>
     <servers />
   </component>
