@@ -12,6 +12,15 @@
   <component name="ChangeListManager">
     <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Bubble/ViewModels/Base/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -150,7 +162,8 @@
       <workItem from="1742247894493" duration="14707000" />
       <workItem from="1742306737749" duration="7338000" />
       <workItem from="1742340375708" duration="185000" />
-      <workItem from="1742394554865" duration="9083000" />
+      <workItem from="1742394554865" duration="9687000" />
+      <workItem from="1742438426919" duration="867000" />
     </task>
     <servers />
   </component>
