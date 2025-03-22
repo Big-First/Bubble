@@ -7,7 +7,6 @@ namespace Bubble.Core;
 
 public class Server
 {
-    public Server(){}
     public string userId { get; set; }
     private ClientWebSocket _clientWebSocket;
     public byte[] publicKey { get; set; }
@@ -17,9 +16,9 @@ public class Server
     public Node left { get; set; }
     public Node right { get; set; }
 
-    public Server(ClientWebSocket server)
+    public Server()
     {
-        _clientWebSocket = server;
+        _clientWebSocket =  new ClientWebSocket();
     }
 
     public async Task ConnectToServer(string serverUrl, CancellationToken cancellationToken = default)
