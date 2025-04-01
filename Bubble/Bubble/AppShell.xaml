@@ -6,6 +6,12 @@
     Shell.FlyoutBehavior="Disabled"
     Title="Bubble"
     Shell.NavBarIsVisible="False">
+    
+    <ShellContent
+        Title="Register"
+        ContentTemplate="{DataTemplate views:Register}"
+        Route="Register"
+        NavigationPage.HasNavigationBar="False"/>
 
     <ShellContent
         Title="Home"

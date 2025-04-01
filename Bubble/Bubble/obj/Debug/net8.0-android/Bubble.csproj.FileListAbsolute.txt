@@ -1082,3 +1082,7 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\stamp\_ConvertResourcesCases.st
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll

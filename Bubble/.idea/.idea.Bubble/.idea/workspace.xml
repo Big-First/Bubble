@@ -11,10 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a54432-40d6-4ecd-863f-40345d3083ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Bubble/Views/Home.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bubble/Views/Home.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bubble/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/App.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/Core/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/Core/Server.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/MauiProgram.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/Bubble.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/com.companyname.bubble-Signed.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-android/com.companyname.bubble-Signed.apk" afterDir="false" />
@@ -24,16 +25,28 @@
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-ios/iossimulator-x64/Bubble.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.build.appxrecipe" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.build.appxrecipe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/bin/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/Bubble.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/designtime/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/designtime/libraryprojectimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/Bubble.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/assets/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/bin/classes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/bin/classes.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/bin/com.companyname.bubble.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/bin/com.companyname.bubble.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/environment.x86_64.ll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/environment.x86_64.ll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/environment.x86_64.o" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/android/environment.x86_64.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/app_shared_libraries/x86_64/libxamarin-app.so" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/app_shared_libraries/x86_64/libxamarin-app.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/buildid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/buildid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/devices.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/devices.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/libraryprojectimports.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/101/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/101/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/102/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/102/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/105/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/105/jl/res.zip" afterDir="false" />
@@ -77,18 +90,9 @@
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/152/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/152/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/154/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/154/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/157/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/157/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/157/jl/res/layout/tabbar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/157/jl/res/layout/tabbar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/157/jl/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/157/jl/res/values/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/157/jl/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/157/jl/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/158/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/158/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/158/jl/res/layout/flyoutcontent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/158/jl/res/layout/flyoutcontent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/158/jl/res/layout/shellcontent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/158/jl/res/layout/shellcontent.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/159/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/159/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/159/jl/res/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/159/jl/res/values/values.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/160/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/160/jl/res.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/160/jl/res/layout/drawer_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/160/jl/res/layout/drawer_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/160/jl/res/layout/fragment_backstack.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/160/jl/res/layout/fragment_backstack.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/160/jl/res/layout/navigationlayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/160/jl/res/layout/navigationlayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/161/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/161/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/95/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/95/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/96/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/96/jl/res.zip" afterDir="false" />
@@ -96,23 +100,56 @@
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/98/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/98/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/99/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/lp/99/jl/res.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/mauiimage.outputs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/mauiimage.outputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/r/mipmap-anydpi-v26/appicon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/r/mipmap-anydpi-v26/appicon_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/sp/drawable-v31/maui_splash_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/sp/drawable-v31/maui_splash_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/sp/drawable/maui_splash_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/sp/drawable/maui_splash_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/sp/values/maui_colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-android/resizetizer/sp/values/maui_colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.csproj.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/Bubble.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/mauiimage.outputs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/mauiimage.outputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/ref/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/ref/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/refint/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-ios/iossimulator-x64/refint/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.csproj.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Bubble.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/mauiimage.outputs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/mauiimage.outputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/ref/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/ref/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/refint/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/refint/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.csproj.Up2Date" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Bubble.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.g.cs.backup" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlSaveStateFile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlTypeInfo.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlTypeInfo.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/XamlTypeInfo.g.cs.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/intermediatexaml/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/intermediatexaml/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/mauiimage.outputs" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/mauiimage.outputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/ref/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/ref/Bubble.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/refint/Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/refint/Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bubble/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Bubble/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PuretalkSolution/PuretalkApplication/obj/Debug/net8.0/PuretalkApplication.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../PuretalkSolution/PuretalkApplication/obj/Debug/net8.0/PuretalkApplication.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PuretalkSolution/PuretalkApplication/obj/Debug/net8.0/PuretalkApplication.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PuretalkSolution/PuretalkApplication/obj/Debug/net8.0/PuretalkApplication.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PuretalkSolution/PuretalkApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../PuretalkSolution/PuretalkApplication/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +160,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/376cae2663645b02969dceb894b94a557923fa7/Views_Register.xaml.sg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/79345e723d7b8e83cecf5423fb91b01d8999cc29/Views_Home.xaml.sg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bubble/Platforms/iOS/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bubble/ViewModels/Base/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
@@ -160,7 +200,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;nele.options&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -260,6 +300,10 @@
       <workItem from="1742507854178" duration="583000" />
       <workItem from="1742508495185" duration="2883000" />
       <workItem from="1742512534143" duration="16000" />
+      <workItem from="1743263399946" duration="9482000" />
+      <workItem from="1743348775729" duration="1271000" />
+      <workItem from="1743350452945" duration="13429000" />
+      <workItem from="1743518169307" duration="8737000" />
     </task>
     <servers />
   </component>
