@@ -16,13 +16,12 @@ public partial class Register : ContentPage
     
     private void OnCounterClicked(object sender, EventArgs e)
     {
+        string email = EntryEmail.Text;
+        string password = EntryPassword.Text;
+        string rePassword = EntryRePassword.Text;
         count++;
-
-        if (count == 1)
-            CounterBtn.Text = $"Clicked {count} time";
-        else
-            CounterBtn.Text = $"Clicked {count} times";
-
-        SemanticScreenReader.Announce(CounterBtn.Text);
+        
+        DisplayAlert("Dados", $"Email: {email}\nSenha: {password}\nRe-Senha: {rePassword}", "OK");
+        
     }
 }

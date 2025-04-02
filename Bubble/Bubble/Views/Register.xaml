@@ -25,7 +25,7 @@
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="FontFamily" Value="Metropolis Medium"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="Margin" Value="0,20,0,50"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
             </Style>
             <Style x:Key="InputMail" TargetType="BoxView">
                 <Setter Property="Color" Value="Azure" />
@@ -37,7 +37,7 @@
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="FontFamily" Value="Metropolis Medium"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="Margin" Value="0,20,0,50"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
             </Style>
             <Style x:Key="InputPassword" TargetType="BoxView">
                 <Setter Property="Color" Value="Azure" />
@@ -51,14 +51,14 @@
             BackgroundColor="{StaticResource PrimaryColor}">
             <VerticalStackLayout
                 Padding="30,0"
-                Spacing="25">
+                Spacing="10">
                 <Image
                     Source="dotnet_bot.png"
                     HeightRequest="185"
                     Aspect="AspectFit"
                     SemanticProperties.Description="dot net bot in a race car number eight" />
                 <Grid
-                    RowDefinitions="Auto, *" RowSpacing="2">
+                    RowDefinitions="Auto, *">
                     <Grid
                         Row="0">
                         <Label
@@ -77,6 +77,7 @@
                         <BoxView
                             Style="{StaticResource InputMail}"/>
                         <Entry
+                            x:Name="EntryEmail"
                             VerticalOptions="End"
                             Placeholder="Enter Mail..."
                             IsPassword="False"
@@ -84,7 +85,7 @@
                     </Grid>
                 </Grid>
                 <Grid
-                    RowDefinitions="Auto, *" RowSpacing="2">
+                    RowDefinitions="Auto, *">
                     <Grid
                         Row="0" >
                         <Label
@@ -93,6 +94,7 @@
                         <BoxView
                             Style="{StaticResource InputPassword}"/>
                         <Entry
+                            x:Name="EntryPassword"
                             VerticalOptions="End"
                             Placeholder="Enter Password..."
                             IsPassword="True"
@@ -100,7 +102,7 @@
                     </Grid>
                 </Grid>
                 <Grid
-                    RowDefinitions="Auto, *" RowSpacing="2">
+                    RowDefinitions="Auto, *">
                     <Grid
                         Row="0" >
                         <Label
@@ -109,6 +111,7 @@
                         <BoxView
                             Style="{StaticResource InputPassword}"/>
                         <Entry
+                            x:Name="EntryRePassword"
                             VerticalOptions="End"
                             Placeholder="Enter Password..."
                             IsPassword="True"

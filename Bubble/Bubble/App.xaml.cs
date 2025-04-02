@@ -9,7 +9,7 @@ namespace Bubble
         public App()
         {
             InitializeComponent();
-            MainPage = new AppShell();
+            MainPage = new Register();
             //Task.Run(() => ConnectServer());
         }
 
