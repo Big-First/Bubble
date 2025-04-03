@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
+using Bubble.Models;
+using Bubble.Repositorys;
 
 namespace Bubble.Views;
 
@@ -19,9 +18,36 @@ public partial class Register : ContentPage
         string email = EntryEmail.Text;
         string password = EntryPassword.Text;
         string rePassword = EntryRePassword.Text;
-        count++;
         
-        DisplayAlert("Dados", $"Email: {email}\nSenha: {password}\nRe-Senha: {rePassword}", "OK");
-        
+        if (password == rePassword)
+        {
+            var user = new UserRegister(Guid.NewGuid().ToString(), email, ComputeSha256Hash(password));
+            AccountRegister(user);
+        }
+    }
+
+    private async void AccountRegister(UserRegister userRegister)
+    {
+        var response = await new PureTalkRepository().CreateAccount(userRegister);
+        if (response == "200") DisplayAlert("Dados","Conta Registrada com Sucesso !", "OK");
+    }
+
+    string ComputeSha256Hash(string rawData)
+    {
+        string p = "";
+        for (int i = 0; i < rawData.Length; i++)
+        {
+            using (MD5 md5Hash = MD5.Create())
+            {
+                byte[] bytes = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(rawData[i].ToString()));
+                StringBuilder builder = new StringBuilder();
+                for (int x = 0; x < bytes.Length; x++)
+                {
+                    builder.Append(bytes[x].ToString("x2"));
+                }
+                p += builder.ToString();
+            }
+        }
+        return p;
     }
 }
