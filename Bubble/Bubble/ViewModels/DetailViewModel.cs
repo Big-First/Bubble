@@ -48,7 +48,7 @@ namespace Bubble.ViewModels
 
                 foreach (var msg in Messages)
                 {
-                    Console.WriteLine($"Mensagem carregada: {msg.Text}");
+                    Console.WriteLine($"Mensagem carregada: {msg.text}");
                 }
             }
 

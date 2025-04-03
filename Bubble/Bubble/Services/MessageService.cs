@@ -11,10 +11,14 @@ namespace Bubble.Services
             get
             {
                 if (_instance == null)
+                {
                     _instance = new MessageService();
+                    return _instance;
+                }
 
                 return _instance;
             }
+            
         }
 
         readonly User user1 = new User
@@ -91,33 +95,33 @@ namespace Bubble.Services
             {
                 new Message
                 {
-                  Sender = user6,
-                  Time = "18:32",
-                  Text = "Hey there! What\'s up? Is everything ok?",
+                  sender = user6,
+                  time = "18:32",
+                  text = "Hey there! What\'s up? Is everything ok?",
                 },
               new Message
               {
-                Sender = user1,
-                Time = "14:05",
-                Text = "Can I call you back later?, I\'m in a meeting.",
+                sender = user1,
+                time = "14:05",
+                text = "Can I call you back later?, I\'m in a meeting.",
               },
               new Message
               {
-                Sender = user3,
-                Time = "14:00",
-                Text = "Yeah. Do you have any good song to recommend?",
+                sender = user3,
+                time = "14:00",
+                text = "Yeah. Do you have any good song to recommend?",
               },
               new Message
               {
-                Sender = user2,
-                Time = "13:35",
-                Text = "Hi! I went shopping today and found a nice t-shirt.",
+                sender = user2,
+                time = "13:35",
+                text = "Hi! I went shopping today and found a nice t-shirt.",
               },
               new Message
               {
-                Sender = user4,
-                Time= "12:11",
-                Text= "I passed you on the ride to work today, see you later.",
+                sender = user4,
+                time= "12:11",
+                text= "I passed you on the ride to work today, see you later.",
               },
             };
         }
@@ -127,34 +131,34 @@ namespace Bubble.Services
             return new List<Message> {
               new Message
               {
-                Sender = null,
-                Time = "18:42",
-                Text = "Yeah I know. I\'m in the same position 😂",
+                sender = null,
+                time = "18:42",
+                text = "Yeah I know. I\'m in the same position 😂",
               },
               new Message
               {
-                Sender = sender,
-                Time = "18:39",
-                Text = "It\'s hard to be productive, man 😞",
+                sender = sender,
+                time = "18:39",
+                text = "It\'s hard to be productive, man 😞",
               },
               new Message
               {
-                Sender = sender,
-                Time = "18:39",
-                Text =
+                sender = sender,
+                time = "18:39",
+                text =
                     "Same here! Been watching YouTube for the past 5 hours despite of having so much to do! 😅",
               },
               new Message
               {
-                Sender = null,
-                Time = "18:36",
-                Text = "Nothing. Just chilling and watching YouTube. What about you?",
+                sender = null,
+                time = "18:36",
+                text = "Nothing. Just chilling and watching YouTube. What about you?",
               },
               new Message
               {
-                Sender= sender,
-                Time = "18:35",
-                Text= "Hey there! What\'s up?",
+                sender= sender,
+                time = "18:35",
+                text= "Hey there! What\'s up?",
               },
             };
         }

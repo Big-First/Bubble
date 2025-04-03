@@ -1,4 +1,6 @@
-﻿using Bubble.Views;
+﻿using System.Net.WebSockets;
+using Bubble.Core;
+using Bubble.Views;
 
 namespace Bubble
 {
@@ -7,7 +9,15 @@ namespace Bubble
         public App()
         {
             InitializeComponent();
-            MainPage = new AppShell();
+            MainPage = new Register();
+            //Task.Run(() => ConnectServer());
+        }
+
+        async Task ConnectServer()
+        {
+            //Server server = new ();
+            //await server.ConnectToServer("ws://10.0.2.2:5107/chat", CancellationToken.None);
+            //await Task.CompletedTask;
         }
     }
 }

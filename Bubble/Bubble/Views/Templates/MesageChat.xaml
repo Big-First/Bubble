@@ -41,13 +41,13 @@
                     </DataTrigger>
                 </Frame.Triggers>
                 <StackLayout>
-                    <Label Text="{Binding Text}"
+                    <Label Text="{Binding text}"
                            TextColor="White"
                            FontFamily="Metropolis Medium"
                            FontSize="14"
                            HorizontalOptions="Start"
                            VerticalOptions="Center" />
-                    <Label Text="{Binding Time}"
+                    <Label Text="{Binding time}"
                            TextColor="White"
                            FontFamily="Metropolis Medium"
                            FontSize="10"

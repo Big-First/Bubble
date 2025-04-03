@@ -3,6 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Bubble.dll" comes first in this list. */
 		"Bubble.dll",
+		"MauiIcons.Core.dll",
+		"MauiIcons.Material.dll",
 		"GoogleGson.dll",
 		"Microsoft.Data.Sqlite.dll",
 		"Microsoft.EntityFrameworkCore.dll",

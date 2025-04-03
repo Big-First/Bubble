@@ -1,4 +1,5 @@
-﻿using Bubble.Singletons;
+﻿using Bubble.Core;
+using Bubble.Singletons;
 using Microsoft.Extensions.Logging;
 
 namespace Bubble;
@@ -20,7 +21,6 @@ public static class MauiProgram
                 fonts.AddFont("Metropolis-Regular.otf", "Metropolis Regular");
                 fonts.AddFont("MaterialIcons-Regular.ttf", "Material Icons");
             });
-
 #if DEBUG
         builder.Logging.AddDebug();
 #endif

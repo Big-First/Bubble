@@ -2,6 +2,41 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -3573,6 +3608,41 @@
       }
     },
     "net8.0-android34.0/android-arm": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -7074,6 +7144,41 @@
       }
     },
     "net8.0-android34.0/android-arm64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -10575,6 +10680,41 @@
       }
     },
     "net8.0-android34.0/android-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -14076,6 +14216,41 @@
       }
     },
     "net8.0-android34.0/android-x86": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -17577,6 +17752,41 @@
       }
     },
     "net8.0-android34.0/iossimulator-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -21078,6 +21288,41 @@
       }
     },
     "net8.0-android34.0/maccatalyst-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -24579,6 +24824,41 @@
       }
     },
     "net8.0-android34.0/win10-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/MauiIcons.Material.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.10.1.4": {
         "type": "package",
         "compile": {
@@ -28080,6 +28360,33 @@
       }
     },
     "net8.0-ios18.0": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -30640,6 +30947,33 @@
       }
     },
     "net8.0-ios18.0/android-arm": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -33501,6 +33835,33 @@
       }
     },
     "net8.0-ios18.0/android-arm64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -36362,6 +36723,33 @@
       }
     },
     "net8.0-ios18.0/android-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -39223,6 +39611,33 @@
       }
     },
     "net8.0-ios18.0/android-x86": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -42084,6 +42499,33 @@
       }
     },
     "net8.0-ios18.0/iossimulator-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -44945,6 +45387,33 @@
       }
     },
     "net8.0-ios18.0/maccatalyst-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -47806,6 +48275,33 @@
       }
     },
     "net8.0-ios18.0/win10-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-ios18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -50663,6 +51159,33 @@
       }
     },
     "net8.0-maccatalyst18.0": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -53281,6 +53804,33 @@
       }
     },
     "net8.0-maccatalyst18.0/android-arm": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -56121,6 +56671,33 @@
       }
     },
     "net8.0-maccatalyst18.0/android-arm64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -58961,6 +59538,33 @@
       }
     },
     "net8.0-maccatalyst18.0/android-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -61801,6 +62405,33 @@
       }
     },
     "net8.0-maccatalyst18.0/android-x86": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -64641,6 +65272,33 @@
       }
     },
     "net8.0-maccatalyst18.0/iossimulator-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -67478,6 +68136,33 @@
       }
     },
     "net8.0-maccatalyst18.0/maccatalyst-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -70318,6 +71003,33 @@
       }
     },
     "net8.0-maccatalyst18.0/win10-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -73154,6 +73866,33 @@
       }
     },
     "net8.0-windows10.0.19041": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -75941,6 +76680,33 @@
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -78910,6 +79676,33 @@
       }
     },
     "net8.0-windows10.0.19041/android-arm64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -81879,6 +82672,33 @@
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -84848,6 +85668,33 @@
       }
     },
     "net8.0-windows10.0.19041/android-x86": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -87817,6 +88664,33 @@
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -90783,6 +91657,33 @@
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -93752,6 +94653,33 @@
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {}
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.82",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.82"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -96724,6 +97652,45 @@
     }
   },
   "libraries": {
+    "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+      "sha512": "aqtwePKrVxtS72dwKnp3RQp6Ru4LIpATfvIK5Wf4T/qjU7zS4zZqGptqNeQqM7iCrAovGGVRHFKb46GasMwqNw==",
+      "type": "package",
+      "path": "aathifmahir.maui.mauiicons.core/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aathifmahir.maui.mauiicons.core.4.0.0.nupkg.sha512",
+        "aathifmahir.maui.mauiicons.core.nuspec",
+        "icon.png",
+        "lib/net8.0-android34.0/MauiIcons.Core.dll",
+        "lib/net8.0-android34.0/MauiIcons.Core.xml",
+        "lib/net8.0-ios18.0/MauiIcons.Core.dll",
+        "lib/net8.0-maccatalyst18.0/MauiIcons.Core.dll",
+        "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll",
+        "lib/net8.0/MauiIcons.Core.dll",
+        "readme.md"
+      ]
+    },
+    "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+      "sha512": "6I9f1obxk/+Gc/GWu576eUNxMaRJ0VMh7v6nM15k65MNNU/4TIdxxOvzgXib0DxEzXlro0MF8lgnZalg/p1Zhw==",
+      "type": "package",
+      "path": "aathifmahir.maui.mauiicons.material/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "aathifmahir.maui.mauiicons.material.4.0.0.nupkg.sha512",
+        "aathifmahir.maui.mauiicons.material.nuspec",
+        "icon.png",
+        "lib/net8.0-android34.0/MauiIcons.Material.dll",
+        "lib/net8.0-android34.0/MauiIcons.Material.xml",
+        "lib/net8.0-ios18.0/MauiIcons.Material.dll",
+        "lib/net8.0-maccatalyst18.0/MauiIcons.Material.dll",
+        "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll",
+        "lib/net8.0/MauiIcons.Material.dll",
+        "readme.md"
+      ]
+    },
     "GoogleGson/2.10.1.4": {
       "sha512": "L1vdbwbQzvKUoUGiMpMoJG5fqfLXaP6zMy1a26AYJQJSQKUO7Ojr2U5BAmgQoRxQ8J2GDjBfnfgnrsnorb4y5Q==",
       "type": "package",
@@ -106583,6 +107550,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
+      "AathifMahir.Maui.MauiIcons.Material >= 4.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite.Design >= 1.1.6",
@@ -106594,6 +107562,7 @@
       "sqlite-net-pcl >= 1.9.172"
     ],
     "net8.0-ios18.0": [
+      "AathifMahir.Maui.MauiIcons.Material >= 4.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite.Design >= 1.1.6",
@@ -106605,6 +107574,7 @@
       "sqlite-net-pcl >= 1.9.172"
     ],
     "net8.0-maccatalyst18.0": [
+      "AathifMahir.Maui.MauiIcons.Material >= 4.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite.Design >= 1.1.6",
@@ -106616,6 +107586,7 @@
       "sqlite-net-pcl >= 1.9.172"
     ],
     "net8.0-windows10.0.19041": [
+      "AathifMahir.Maui.MauiIcons.Material >= 4.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.14",
       "Microsoft.EntityFrameworkCore.Sqlite.Design >= 1.1.6",
@@ -106696,6 +107667,10 @@
       "net8.0-android34.0": {
         "targetAlias": "net8.0-android",
         "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Material": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -106785,6 +107760,10 @@
       "net8.0-ios18.0": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Material": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -106862,6 +107841,10 @@
       "net8.0-maccatalyst18.0": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Material": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -106940,6 +107923,10 @@
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
         "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Material": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

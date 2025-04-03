@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bubble.Views.Register">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TitleText" TargetType="Label">
+                <Setter Property="FontSize" Value="24"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="WidthRequest" Value="160"/>
+                <Setter Property="Margin" Value="0,0,0,0"/>
+            </Style>
+            <Style x:Key="text" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,50,0,0"/>
+            </Style>
+            <Style x:Key="Mail" TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
+            </Style>
+            <Style x:Key="InputMail" TargetType="BoxView">
+                <Setter Property="Color" Value="Azure" />
+                <Setter Property="Margin" Value="12,55,12,0" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+            <Style x:Key="Password" TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
+            </Style>
+            <Style x:Key="InputPassword" TargetType="BoxView">
+                <Setter Property="Color" Value="Azure" />
+                <Setter Property="Margin" Value="12,55,12,0" />
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView
+            BackgroundColor="{StaticResource PrimaryColor}">
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="10">
+                <Image
+                    Source="dotnet_bot.png"
+                    HeightRequest="185"
+                    Aspect="AspectFit"
+                    SemanticProperties.Description="dot net bot in a race car number eight" />
+                <Grid
+                    RowDefinitions="Auto, *">
+                    <Grid
+                        Row="0">
+                        <Label
+                            Text="Register!!"
+                            Style="{StaticResource TitleText}" />
+                        <Label
+                            Style="{StaticResource text}" 
+                            Text="Welcome to CleanUp &#10;Create your account to start chatting."
+                            SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+                    </Grid>
+                    <Grid
+                        Row="1">
+                        <Label
+                            Text="Mail"
+                            Style="{StaticResource Mail}" />
+                        <BoxView
+                            Style="{StaticResource InputMail}"/>
+                        <Entry
+                            x:Name="EntryEmail"
+                            VerticalOptions="End"
+                            Placeholder="Enter Mail..."
+                            IsPassword="False"
+                            Margin="10,0,10,-8" />
+                    </Grid>
+                </Grid>
+                <Grid
+                    RowDefinitions="Auto, *">
+                    <Grid
+                        Row="0" >
+                        <Label
+                            Text="Password"
+                            Style="{StaticResource Password}" />
+                        <BoxView
+                            Style="{StaticResource InputPassword}"/>
+                        <Entry
+                            x:Name="EntryPassword"
+                            VerticalOptions="End"
+                            Placeholder="Enter Password..."
+                            IsPassword="True"
+                            Margin="10,0,10,-8" />
+                    </Grid>
+                </Grid>
+                <Grid
+                    RowDefinitions="Auto, *">
+                    <Grid
+                        Row="0" >
+                        <Label
+                            Text="Re-Password"
+                            Style="{StaticResource Password}" />
+                        <BoxView
+                            Style="{StaticResource InputPassword}"/>
+                        <Entry
+                            x:Name="EntryRePassword"
+                            VerticalOptions="End"
+                            Placeholder="Enter Password..."
+                            IsPassword="True"
+                            Margin="10,0,10,-8" />
+                    </Grid>
+                </Grid>
+                
+
+                <Button
+                    x:Name="CounterBtn"
+                    Text="Register" 
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Fill" />
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

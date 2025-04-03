@@ -64,17 +64,17 @@
             
             <!-- Imagem do remetente -->
             <Grid Style="{StaticResource RecentImageContainerStyle}">
-                <Ellipse Fill="{Binding Sender.Color}" Style="{StaticResource RecentEllipseStyle}" />
-                <Image Source="{Binding Sender.Image}" Style="{StaticResource RecentImageStyle}" />
+                <Ellipse Fill="{Binding  sender.Color}" Style="{StaticResource RecentEllipseStyle}" />
+                <Image Source="{Binding sender.Image}" Style="{StaticResource RecentImageStyle}" />
             </Grid>
             
             <!-- Informações da conversa -->
             <Grid Grid.Column="1" ColumnDefinitions="*, Auto">
                 <StackLayout>
-                    <Label Text="{Binding Sender.Name}" Style="{StaticResource NameTextStyle}" />
-                    <Label Text="{Binding Text}" Style="{StaticResource MessageTextStyle}" />
+                    <Label Text="{Binding sender.Name}" Style="{StaticResource NameTextStyle}" />
+                    <Label Text="{Binding text}" Style="{StaticResource MessageTextStyle}" />
                 </StackLayout>
-                <Label Grid.Column="1" Text="{Binding Time}" Style="{StaticResource TimeTextStyle}" />
+                <Label Grid.Column="1" Text="{Binding time}" Style="{StaticResource TimeTextStyle}" />
             </Grid>
         </Grid>
     </ContentView.Content>

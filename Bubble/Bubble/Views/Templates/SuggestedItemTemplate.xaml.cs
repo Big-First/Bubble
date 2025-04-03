@@ -22,7 +22,7 @@ public partial class SuggestedItemTemplate : ContentView
 
         if (BindingContext is Message chatItem)
         {
-            Console.WriteLine($"OnTestTapped >> Navigating to chat with {chatItem.Sender.Name}");
+            Console.WriteLine($"OnTestTapped >> Navigating to chat with {chatItem.sender.Name}");
         }
         else
         {

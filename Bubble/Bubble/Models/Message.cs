@@ -1,17 +1,24 @@
-﻿namespace Bubble.Models
+﻿using Bubble.Enums;
+
+namespace Bubble.Models
 {
     public class Message
     {
         public Message(){}
-        public User? Sender { get; set; }
-        public string Text { get; set; }
-        public string Time { get; set; }
-        public bool IsOwnMessage => Sender == null;
-        public Message(User? sender, string text, string time)
+        public User? sender { get; set; }
+        public RequestCode requestCode { get; set; }
+        public ActionCode actionCode { get; set; }
+        public string text { get; set; }
+        public string time { get; set; }
+        public bool IsOwnMessage => sender == null;
+
+        public Message(User? sender, RequestCode requestCode, ActionCode actionCode, string text, string time)
         {
-            Sender = sender;
-            Text = text;
-            Time = time;
+            this.sender = sender;
+            this.requestCode = requestCode;
+            this.actionCode = actionCode;
+            this.text = text;
+            this.time = time;
         }
     }
 }

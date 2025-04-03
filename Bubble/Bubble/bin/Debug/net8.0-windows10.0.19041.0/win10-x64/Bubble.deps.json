@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v8.0/win10-x64": {
       "Bubble/1.0": {
         "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Material": "4.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.14",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.14",
           "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.6",
@@ -32,6 +33,31 @@
           "WinRT.Runtime.dll": {
             "assemblyVersion": "2.1.0.0",
             "fileVersion": "2.1.6.47881"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "8.0.100",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.100"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+        "dependencies": {
+          "AathifMahir.Maui.MauiIcons.Core": "4.0.0",
+          "Microsoft.Maui.Controls": "8.0.100",
+          "Microsoft.Maui.Controls.Compatibility": "8.0.100"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041/MauiIcons.Material.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
           }
         }
       },
@@ -1871,6 +1897,20 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "AathifMahir.Maui.MauiIcons.Core/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aqtwePKrVxtS72dwKnp3RQp6Ru4LIpATfvIK5Wf4T/qjU7zS4zZqGptqNeQqM7iCrAovGGVRHFKb46GasMwqNw==",
+      "path": "aathifmahir.maui.mauiicons.core/4.0.0",
+      "hashPath": "aathifmahir.maui.mauiicons.core.4.0.0.nupkg.sha512"
+    },
+    "AathifMahir.Maui.MauiIcons.Material/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6I9f1obxk/+Gc/GWu576eUNxMaRJ0VMh7v6nM15k65MNNU/4TIdxxOvzgXib0DxEzXlro0MF8lgnZalg/p1Zhw==",
+      "path": "aathifmahir.maui.mauiicons.material/4.0.0",
+      "hashPath": "aathifmahir.maui.mauiicons.material.4.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

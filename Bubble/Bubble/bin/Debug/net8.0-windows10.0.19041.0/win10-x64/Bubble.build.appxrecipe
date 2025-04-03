@@ -283,6 +283,12 @@
     <AppxPackagedFile Include="C:\Users\MPLopes\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MPLopes\.nuget\packages\aathifmahir.maui.mauiicons.core\4.0.0\lib\net8.0-windows10.0.19041\MauiIcons.Core.dll">
+      <PackagePath>MauiIcons.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MPLopes\.nuget\packages\aathifmahir.maui.mauiicons.material\4.0.0\lib\net8.0-windows10.0.19041\MauiIcons.Material.dll">
+      <PackagePath>MauiIcons.Material.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MPLopes\.nuget\packages\microsoft.data.sqlite.core\8.0.14\lib\net8.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
     </AppxPackagedFile>
