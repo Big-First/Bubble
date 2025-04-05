@@ -277,7 +277,7 @@ public partial class Profile : ContentPage
             new CountryInfo { Name = "Ilhas Virgens Britânicas", DialCode = "+1-284", IsoCode = "VG" },
             new CountryInfo { Name = "Ilhas Virgens Americanas", DialCode = "+1-340", IsoCode = "VI" },
         };
-        SelectedCountry = CountryList.FirstOrDefault(c => c.IsoCode == "BR");
+        SelectedCountry = CountryList!.FirstOrDefault(c => c.IsoCode == "BR");
     }
 
 

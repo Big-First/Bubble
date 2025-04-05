@@ -7,7 +7,6 @@ namespace Bubble.Views;
 
 public partial class Register : ContentPage
 {
-    int count = 0;
     public Register()
     {
         InitializeComponent();

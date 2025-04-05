@@ -8,11 +8,11 @@ namespace Bubble.ViewModels
 {
     public class DetailViewModel : ViewModelBase, IQueryAttributable
     {
-        Singleton _singleton;
-        User _user;
+        Singleton _singleton = null;
+        User? _user;
         ObservableCollection<Message> _messages;
 
-        public User User
+        public User? User
         {
             get { return _user; }
             set

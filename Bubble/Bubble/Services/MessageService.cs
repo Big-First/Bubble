@@ -126,7 +126,7 @@ namespace Bubble.Services
             };
         }
 
-        public List<Message> GetMessages(User sender)
+        public List<Message> GetMessages(User? sender)
         {
             return new List<Message> {
               new Message
