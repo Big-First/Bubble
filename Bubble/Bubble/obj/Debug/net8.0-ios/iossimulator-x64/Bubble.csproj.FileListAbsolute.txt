@@ -418,3 +418,8 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\refint\Bubble.dll
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\Bubble.pdb
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\Bubble.genruntimeconfig.cache
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\ref\Bubble.dll
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\appiconfg@3x.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\appiconfg@2x.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\appiconfg.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\user48.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\plus.png

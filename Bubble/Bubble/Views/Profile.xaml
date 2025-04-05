@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bubble.Views.Profile">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="TitleText" TargetType="Label">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="None"/>
+                <Setter Property="VerticalOptions" Value="Start" />
+                <Setter Property="HorizontalOptions" Value="Start" />
+                <Setter Property="Margin" Value="0,0,0,0"/>
+            </Style>
+            <Style x:Key="text" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,50,0,0"/>
+            </Style>
+            <Style x:Key="ProfileImage" TargetType="Image">
+                <Setter Property="Margin" Value="50,0,0,0"/>
+            </Style>
+            <Style x:Key="ImageBord" TargetType="Ellipse">
+                <Setter Property="Margin" Value="50,0,0,-2"/>
+            </Style>
+            <Style x:Key="UserName" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
+            </Style>
+            <Style x:Key="InputUserName" TargetType="BoxView">
+                <Setter Property="Color" Value="Azure" />
+                <Setter Property="Margin" Value="12,50,12,0" />
+                <Setter Property="CornerRadius" Value="7" />
+            </Style>
+            <Style x:Key="Name" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
+            </Style>
+            <Style x:Key="InputName" TargetType="BoxView">
+                <Setter Property="Color" Value="Azure" />
+                <Setter Property="Margin" Value="12,50,12,0" />
+                <Setter Property="CornerRadius" Value="7" />
+            </Style>
+            <Style x:Key="CountryCode" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
+            </Style>
+            <Style x:Key="DD" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
+            </Style>
+            <Style x:Key="InputDD" TargetType="BoxView">
+                <Setter Property="Color" Value="Azure" />
+                <Setter Property="Margin" Value="12,50,12,0" />
+                <Setter Property="CornerRadius" Value="7" />
+            </Style>
+            <Style x:Key="PhoneNumber" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontFamily" Value="Metropolis Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="Margin" Value="0,10,0,50"/>
+            </Style>
+            <Style x:Key="InputPhoneNumber" TargetType="BoxView">
+                <Setter Property="Color" Value="Azure" />
+                <Setter Property="Margin" Value="12,50,12,0" />
+                <Setter Property="CornerRadius" Value="7" />
+            </Style>
+            <Style x:Key="PickerStyle" TargetType="Picker">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Margin" Value="20,50,20,-8"/>
+                <Setter Property="HeightRequest" Value="45"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="WidthRequest" Value="330"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView
+            BackgroundColor="{StaticResource PrimaryColor}">
+            <VerticalStackLayout
+                Padding="20,0"
+                Spacing="10">
+                <Grid
+                    RowDefinitions="Auto, *">
+                    
+                    <Grid
+                        Row="0">
+                        <Label
+                            Style="{StaticResource TitleText}"
+                            Text="Profile" />
+                    </Grid>
+                    <Grid
+                        Row="1"
+                    >
+                        <Ellipse WidthRequest="80"
+                                 HeightRequest="80"
+                                 BackgroundColor="Azure" />
+                        <Image Source="user48.png"
+                               WidthRequest="60"
+                               HeightRequest="60"
+                               Aspect="AspectFit"/>
+                        <Ellipse WidthRequest="30"
+                                 Style="{StaticResource ImageBord}"
+                                 HeightRequest="30"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="End"
+                                 BackgroundColor="Azure" />
+                        <Image Source="plus.png"
+                               Style="{StaticResource ProfileImage}"
+                               HorizontalOptions="Center"
+                               VerticalOptions="End"
+                               WidthRequest="25"
+                               HeightRequest="25"
+                               Aspect="AspectFit"/>
+                    </Grid>
+                </Grid>
+                <Grid
+                    RowDefinitions="Auto, *">
+                    <Grid
+                        Row="0">
+                        <Label
+                            Text="UserName :"
+                            Style="{StaticResource UserName}" />
+                        <BoxView
+                            Style="{StaticResource InputUserName}"/>
+                        <Entry
+                            x:Name="EntryUserName"
+                            VerticalOptions="End"
+                            Placeholder="Enter UserName..."
+                            IsPassword="False"
+                            Margin="15,0,15,-8" />
+                    </Grid>
+                </Grid>
+                <Grid
+                    RowDefinitions="Auto, *">
+                    <Grid
+                        Row="0">
+                        <Label
+                            Text="Name :"
+                            Style="{StaticResource Name}" />
+                        <BoxView
+                            Style="{StaticResource InputName}"/>
+                        <Entry
+                            x:Name="EntryName"
+                            VerticalOptions="End"
+                            Placeholder="Enter Name..."
+                            IsPassword="False"
+                            Margin="15,0,15,-8" />
+                    </Grid>
+                </Grid>
+                <Grid
+                    RowDefinitions="Auto, *">
+                    <Grid
+                        Row="0">
+                        <Label
+                            Text="Country Code :"
+                            Style="{StaticResource CountryCode}" />
+                        <Frame CornerRadius="10"
+                               Padding="0"
+                               HasShadow="False"
+                               BackgroundColor="Azure"
+                               Margin="12,50,12,0" />
+                        <Picker x:Name="CountryCodePicker"
+                                Title="+XX"
+                                ItemsSource="{Binding CountryList}"
+                                ItemDisplayBinding="{Binding DisplayName}"
+                                SelectedItem="{Binding SelectedCountry}"
+                                
+                                Style="{StaticResource PickerStyle}" />
+                        
+                    </Grid>
+                </Grid>
+                <Grid
+                    RowDefinitions="Auto, *">
+                    <Grid
+                        Row="0">
+                        <Label
+                            Text="DD :"
+                            Style="{StaticResource DD}" />
+                        <BoxView
+                            Style="{StaticResource InputDD}"/>
+                        <Entry
+                            x:Name="EntryDD"
+                            VerticalOptions="End"
+                            Keyboard="Telephone"
+                            Placeholder="Enter DD..."
+                            IsPassword="False"
+                            Margin="15,0,15,-8" />
+                    </Grid>
+                </Grid>
+                <Grid
+                    RowDefinitions="Auto, *">
+                    <Grid
+                        Row="0">
+                        <Label
+                            Text="PhoneNumber :"
+                            Style="{StaticResource PhoneNumber}" />
+                        <BoxView
+                            Style="{StaticResource InputPhoneNumber}"/>
+                        <Entry
+                            x:Name="EntryPhoneNumber"
+                            VerticalOptions="End"
+                            Keyboard="Telephone"
+                            ReturnType="Next"
+                            Placeholder="Enter PhoneNumber..."
+                            IsPassword="False"
+                            Margin="15,0,15,-8" />
+                    </Grid>
+                </Grid>
+                <Button
+                    x:Name="CounterBtn"
+                    Text="Complete" 
+                    Clicked="CompleteRegister"
+                    Margin="0,50,0,0"
+                    VerticalOptions="End"
+                    HorizontalOptions="Fill" />
+                
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

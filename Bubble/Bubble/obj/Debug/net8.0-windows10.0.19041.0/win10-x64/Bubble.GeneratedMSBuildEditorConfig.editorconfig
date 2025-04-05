@@ -70,11 +70,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.HomeView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomeView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomeView.xaml
 
+[J:/Bubble/Bubble/Bubble/Views/Profile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.Profile.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Profile.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Profile.xaml
+
 [J:/Bubble/Bubble/Bubble/Views/Register.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.Register.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Register.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Register.xaml
+
+[J:/Bubble/Bubble/Bubble/Views/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Bubble.Views.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Settings.xaml
 
 [J:/Bubble/Bubble/Bubble/Views/Templates/MesageChat.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

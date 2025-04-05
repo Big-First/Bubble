@@ -284,3 +284,10 @@ J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifier
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Bubble.genpublishdeps.cache
 J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-400.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-200.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-150.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-125.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-100.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user48.scale-100.png
+J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png

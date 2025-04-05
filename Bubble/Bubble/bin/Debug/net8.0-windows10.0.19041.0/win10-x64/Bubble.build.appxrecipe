@@ -79,6 +79,21 @@
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-100.png">
+      <PackagePath>appiconfg.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-125.png">
+      <PackagePath>appiconfg.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-150.png">
+      <PackagePath>appiconfg.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-200.png">
+      <PackagePath>appiconfg.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconfg.scale-400.png">
+      <PackagePath>appiconfg.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -268,6 +283,9 @@
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emoji9.scale-100.png">
       <PackagePath>emoji9.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\plus.scale-100.png">
+      <PackagePath>plus.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\record.scale-100.png">
       <PackagePath>record.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -276,6 +294,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\send.scale-100.png">
       <PackagePath>send.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="J:\Bubble\Bubble\Bubble\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user48.scale-100.png">
+      <PackagePath>user48.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MPLopes\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

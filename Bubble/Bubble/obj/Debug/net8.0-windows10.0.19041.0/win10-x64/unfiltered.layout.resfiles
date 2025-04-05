@@ -7,6 +7,11 @@ Metropolis-Regular.otf
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
 appicon.ico
+appiconfg.scale-100.png
+appiconfg.scale-125.png
+appiconfg.scale-150.png
+appiconfg.scale-200.png
+appiconfg.scale-400.png
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
 appiconLargeTile.scale-150.png
@@ -70,9 +75,11 @@ emoji6.scale-100.png
 emoji7.scale-100.png
 emoji8.scale-100.png
 emoji9.scale-100.png
+plus.scale-100.png
 record.scale-100.png
 search.scale-100.png
 send.scale-100.png
+user48.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
