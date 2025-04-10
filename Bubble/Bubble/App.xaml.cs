@@ -9,15 +9,15 @@ namespace Bubble
         public App()
         {
             InitializeComponent();
-            MainPage = new Profile();
-            //Task.Run(() => ConnectServer());
+            MainPage = new AppShell();
+            Task.Run(() => ConnectServer());
         }
 
         async Task ConnectServer()
         {
             //Server server = new ();
             //await server.ConnectToServer("ws://10.0.2.2:5107/chat", CancellationToken.None);
-            //await Task.CompletedTask;
+            await Task.CompletedTask;
         }
     }
 }

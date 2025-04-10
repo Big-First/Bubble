@@ -22,9 +22,7 @@ namespace Bubble.ViewModels
             }
         }
         
-        public DetailViewModel()
-        {
-        }
+        public DetailViewModel(){}
 
         public ObservableCollection<Message> Messages
         {
